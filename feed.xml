@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">davidrd-es</title><subtitle type="html">Sandbox</subtitle><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-22T11:06:51+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">My First Post3</title><link href="http://davidrd-es.github.io/posts/my-first-post3/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/my-first-post3/</id><published>2021-10-22T12:57:55+02:00</published><updated>2021-10-22T12:57:55+02:00</updated><content type="html"></content></entry><entry><title type="html">My First Post 10</title><link href="http://davidrd-es.github.io/posts/first-post/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/first-post/</id><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">davidrd-es</title><subtitle type="html">Sandbox</subtitle><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-22T11:08:19+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">My First Post3</title><link href="http://davidrd-es.github.io/posts/my-first-post3/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/my-first-post3/</id><published>2021-10-22T12:57:55+02:00</published><updated>2021-10-22T12:57:55+02:00</updated><content type="html"></content></entry><entry><title type="html">My First Post 10</title><link href="http://davidrd-es.github.io/posts/first-post/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/first-post/</id><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[
 
 
   <div class="gblog-toc gblog-toc__level--1"><nav id="TableOfContents">
@@ -8,6 +8,8 @@
         <li><a href="#images">Images</a>
           <ul>
             <li><a href="#picture">Picture</a></li>
+            <li><a href="#gif">Gif</a></li>
+            <li><a href="#gif2">Gif2</a></li>
           </ul>
         </li>
         <li><a href="#buttons">Buttons</a></li>
@@ -45,6 +47,79 @@
 <h2 id="images">Images</h2>
 <p>aaaaaaaaa</p>
 <h3 id="picture">Picture</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex justify-center">
+<figure class="gblog-post__figure">
+    <a class="gblog-markdown__link--raw" href="/posts/first-post/images/aaaaaa1.png">
+        <picture>
+            <source
+                
+                srcset="/posts/first-post/images/aaaaaa1_hu4ec9b067ef8d65a82ffafacba726bd3a_1179256_1800x0_resize_box_2.png"
+                 />
+            <img
+                
+                src="/posts/first-post/images/aaaaaa1_hu4ec9b067ef8d65a82ffafacba726bd3a_1179256_1800x0_resize_box_2.png" alt="Forest" />
+        </picture>
+    </a>
+    
+    <figcaption>Forest (Peporttt)</figcaption>
+    
+</figure>
+</div>
+
+
+<h3 id="gif">Gif</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex justify-center">
+<figure class="gblog-post__figure">
+    <a class="gblog-markdown__link--raw" href="/posts/first-post/images/test2.gif">
+        <picture>
+            <source
+                
+                srcset="/posts/first-post/images/test2_hu15bd3794fd4cc6c3a8cf0ac3edb6dde0_1519344_1800x0_resize_box.gif"
+                 />
+            <img
+                loading="lazy"
+                src="/posts/first-post/images/test2_hu15bd3794fd4cc6c3a8cf0ac3edb6dde0_1519344_1800x0_resize_box.gif" alt="Forest" />
+        </picture>
+    </a>
+    
+    <figcaption>Forest</figcaption>
+    
+</figure>
+</div>
+
+
+<h3 id="gif2">Gif2</h3>
+<p><img src="images/test2.gif" alt="Alt text for my gif"  /></p>
 <h2 id="buttons">Buttons</h2>
 <p>
 
@@ -287,11 +362,11 @@ Ornateness bland it ex enc, est yeti am bongo detract re.
 <h2 id="expands">Expands</h2>
 
 <div class="gblog-expand">
-  <label class="gblog-expand__head flex justify-between" for="b082e31c-19">
+  <label class="gblog-expand__head flex justify-between" for="b082e31c-21">
     <span>Custom Label</span>
     <span>...</span>
   </label>
-  <input id="b082e31c-19" type="checkbox" class="gblog-expand__control hidden" />
+  <input id="b082e31c-21" type="checkbox" class="gblog-expand__control hidden" />
   <div class="gblog-markdown--nested gblog-expand__content">
     <h2 id="markdown-content">Markdown content</h2>
 <p>Dolor sit, sumo unique &hellip;

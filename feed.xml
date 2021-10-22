@@ -1,1 +1,361 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.59.1">Hugo</generator><title type="html">davidrd-es</title><subtitle type="html">Sandbox</subtitle><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-22T09:50:07+00:00</updated><id>http://davidrd-es.github.io/</id></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">davidrd-es</title><subtitle type="html">Sandbox</subtitle><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-22T11:06:02+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">My First Post3</title><link href="http://davidrd-es.github.io/posts/my-first-post3/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/my-first-post3/</id><published>2021-10-22T12:57:55+02:00</published><updated>2021-10-22T12:57:55+02:00</updated><content type="html"></content></entry><entry><title type="html">My First Post 10</title><link href="http://davidrd-es.github.io/posts/first-post/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/first-post/</id><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[
+
+
+  <div class="gblog-toc gblog-toc__level--1"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#images">Images</a>
+          <ul>
+            <li><a href="#picture">Picture</a></li>
+          </ul>
+        </li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#diagram">Diagram</a>
+          <ul>
+            <li><a href="#sequence">Sequence</a></li>
+            <li><a href="#gant">Gant</a></li>
+            <li><a href="#flowchart">Flowchart</a></li>
+            <li><a href="#flowchart-2">Flowchart 2</a></li>
+            <li><a href="#flowchart-3">Flowchart 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#hints">Hints</a></li>
+        <li><a href="#icons">Icons</a></li>
+        <li><a href="#tabs">Tabs</a></li>
+        <li><a href="#expands">Expands</a></li>
+        <li><a href="#columns">Columns</a></li>
+        <li><a href="#markdown">Markdown</a>
+          <ul>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#formats">Formats</a>
+              <ul>
+                <li><a href="#italic">Italic</a></li>
+                <li><a href="#bold">Bold</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav><hr></div>
+
+
+<h2 id="images">Images</h2>
+<h3 id="picture">Picture</h3>
+<h2 id="buttons">Buttons</h2>
+<p>
+
+
+
+
+
+
+
+  
+
+
+<span class="gblog-button gblog-button--regular ...">
+<a  href="/"  class="gblog-button__link">
+  Get Home
+</a>
+</span>
+
+
+
+
+
+
+
+
+
+  
+
+
+<span class="gblog-button gblog-button--large ...">
+<a  href="/"  class="gblog-button__link">
+  Get Home
+</a>
+</span>
+
+
+
+
+
+
+
+  
+
+
+
+
+<span class="gblog-button gblog-button--regular">
+<a  href="https://github.com/thegeeklab/hugo-geekblog"  class="gblog-button__link">
+  Contribute
+</a>
+</span>
+</p>
+<h2 id="diagram">Diagram</h2>
+<h3 id="sequence">Sequence</h3>
+
+
+<script defer src="/js/mermaid-beaf30d1e1.min.js"></script>
+<script defer src="/js/mermaid-loader-b7fefc76fa.min.js"></script>
+
+
+
+<pre class="gblog-mermaid mermaid text-center">
+sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+        Bob->>Alice: Not so good :(
+        Bob->>Alice: Not so good :(
+        Bob->>Alice: Not so good :(
+        Bob->>Alice: Not so good :(
+    else is well
+        Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob->>Alice: Thanks for asking
+    end
+</pre>
+
+
+
+<pre class="gblog-mermaid mermaid text-center">
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+</pre>
+
+<h3 id="gant">Gant</h3>
+
+
+<pre class="gblog-mermaid mermaid text-center">
+gantt
+       dateFormat                YYYY-MM-DD
+       title                     Adding GANTT diagram functionality to mermaid
+       excludes                  :excludes the named dates/days from being included in a charted task..
+       section A section
+       Completed task            :done,    des1, 2014-01-06,2014-01-08
+       Active task               :active,  des2, 2014-01-09, 3d
+       Future task               :         des3, after des2, 5d
+       Future task2              :         des4, after des3, 5d
+
+       section Critical tasks
+       Completed task in the critical line :crit, done, 2014-01-06,24h
+       Implement parser and jison          :crit, done, after des1, 2d
+       Create tests for parser             :crit, active, 3d
+       Future task in critical line        :crit, 5d
+       Create tests for renderer           :2d
+       Add to mermaid                      :1d
+
+       section Documentation
+       Describe gantt syntax               :active, a1, after des1, 3d
+       Add gantt diagram to demo page      :after a1  , 20h
+       Add another diagram to demo page    :doc1, after a1  , 48h
+
+       section Last section
+       Describe gantt syntax               :after doc1, 3d
+       Add gantt diagram to demo page      :20h
+       Add another diagram to demo page    :48h
+</pre>
+
+<h3 id="flowchart">Flowchart</h3>
+
+
+<pre class="gblog-mermaid mermaid text-center">
+graph TD;
+    A-->B;
+    B-->D;
+    C-->D;
+</pre>
+
+<h3 id="flowchart-2">Flowchart 2</h3>
+
+
+<pre class="gblog-mermaid mermaid text-center">
+graph LR
+    A[Square Rect] -- Link text --> B((Circle))
+    A --> C(Round Rect)
+    B --> D{Rhombus}
+    C --> D
+</pre>
+
+<h3 id="flowchart-3">Flowchart 3</h3>
+
+
+<pre class="gblog-mermaid mermaid text-center">
+graph TB
+    sq[Square shape] --> ci((Circle shape))
+
+    subgraph A
+        od>Odd shape]-- Two line<br/>edge comment --> ro
+        di{Diamond with <br/> line break} -.-> ro(Rounded<br>square<br>shape)
+        di==>ro2(Rounded square shape)
+    end
+
+    %% Notice that no text in shape are added here instead that is appended further down
+    e --> od3>Really long text with linebreak<br>in an Odd shape]
+
+    %% Comments after double percent signs
+    e((Inner / circle<br>and some odd <br>special characters)) --> f(,.?!+-*ز)
+
+    cyr[Cyrillic]-->cyr2((Circle shape Начало));
+
+     classDef green fill:#9f6,stroke:#333,stroke-width:2px;
+     classDef orange fill:#f96,stroke:#333,stroke-width:4px;
+     class sq,e green
+     class di orange
+</pre>
+
+<h2 id="hints">Hints</h2>
+<blockquote class="gblog-hint info">
+  <strong>Markdown content</strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+</blockquote>
+
+<blockquote class="gblog-hint ok">
+  <strong>Markdown content</strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+</blockquote>
+
+<blockquote class="gblog-hint warning">
+  <strong>Markdown content</strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+</blockquote>
+
+<blockquote class="gblog-hint danger">
+  <strong>Markdown content</strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+</blockquote>
+
+<h2 id="icons">Icons</h2>
+<p><span class="emoji">🙈</span>
+
+<svg class="icon thumbs-up"><use xlink:href="#thumbs-up"></use></svg>
+<svg class="icon thumbs-up"><use xlink:href="#thumbs-up"></use></svg>
+<svg class="icon thumbs-down"><use xlink:href="#thumbs-down"></use></svg></p>
+<h2 id="tabs">Tabs</h2>
+
+
+
+
+<div class="gblog-tabs">
+  
+    <input type="radio" class="gblog-tabs__control hidden" name="tabs-uniqueid" id="tabs-uniqueid-0"
+      checked="checked"  />
+    <label for="tabs-uniqueid-0" class="gblog-tabs__label">
+      macOS
+    </label>
+    <div class="gblog-markdown--nested gblog-tabs__content">
+      <h1 id="macos-content">macOS Content</h1>
+    </div>
+  
+    <input type="radio" class="gblog-tabs__control hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"
+       />
+    <label for="tabs-uniqueid-1" class="gblog-tabs__label">
+      Linux
+    </label>
+    <div class="gblog-markdown--nested gblog-tabs__content">
+      <h1 id="linux-content">Linux Content</h1>
+    </div>
+  
+    <input type="radio" class="gblog-tabs__control hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"
+       />
+    <label for="tabs-uniqueid-2" class="gblog-tabs__label">
+      Windows
+    </label>
+    <div class="gblog-markdown--nested gblog-tabs__content">
+      <h1 id="windows-content">Windows Content</h1>
+    </div>
+  
+</div>
+
+<h2 id="expands">Expands</h2>
+
+<div class="gblog-expand">
+  <label class="gblog-expand__head flex justify-between" for="b082e31c-19">
+    <span>Custom Label</span>
+    <span>...</span>
+  </label>
+  <input id="b082e31c-19" type="checkbox" class="gblog-expand__control hidden" />
+  <div class="gblog-markdown--nested gblog-expand__content">
+    <h2 id="markdown-content">Markdown content</h2>
+<p>Dolor sit, sumo unique &hellip;
+  </div>
+</div>
+
+<h2 id="columns">Columns</h2>
+<div class="gblog-columns flex flex-wrap">
+  
+  <div class="gblog-columns__content gblog-markdown--nested flex-even">
+    <!-- begin columns block -->
+<h2 id="left-content">Left Content</h2>
+<p>Dolor sit, sumo unique argument um no &hellip;
+  </div>
+  
+  <div class="gblog-columns__content gblog-markdown--nested flex-even">
+    <!-- magic sparator, between columns -->
+<h2 id="mid-content">Mid Content</h2>
+<p>Dolor sit, sumo unique argument um no &hellip;
+  </div>
+  
+  <div class="gblog-columns__content gblog-markdown--nested flex-even">
+    <!-- magic sparator, between columns -->
+<h2 id="right-content">Right Content</h2>
+<p>Dolor sit, sumo unique argument um no &hellip;
+  </div>
+  
+</div>
+
+<ul>
+<li>Test 1
+<ul>
+<li>test 1.2</li>
+<li>test 2.2</li>
+</ul>
+</li>
+<li>Test 2
+<ul>
+<li>Test 2.1</li>
+<li>Test 2.2</li>
+</ul>
+</li>
+</ul>
+<h2 id="markdown">Markdown</h2>
+<h3 id="links">Links</h3>
+<p><a class="gblog-markdown__link" href="https://www.example.com">title</a></p>
+<h3 id="formats">Formats</h3>
+<h4 id="italic">Italic</h4>
+<p>aaa <em>italicized text</em></p>
+<h4 id="bold">Bold</h4>
+<p>aaa <strong>bold text</strong></p>
+<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;John&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Smith&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;age&#34;</span><span class="p">:</span> <span class="mi">25</span>
+<span class="p">}</span>
+</code></pre></div>]]></content><category scheme="http://davidrd-es.github.io/tags/Open-Source" term="Open-Source" label="Open Source"/><category scheme="http://davidrd-es.github.io/tags/devops" term="devops" label="devops"/><category scheme="http://davidrd-es.github.io/tags/k8s" term="k8s" label="k8s"/></entry><entry><title type="html">My ssssss Post</title><link href="http://davidrd-es.github.io/posts/my-first-post2/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/my-first-post2/</id><author><name>David RD</name></author><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[<h2 id="this-is-a-message">This is a message</h2>
+<h2 id="message-2">Message 2</h2>
+<p>dadasdasdasd
+asadadsa
+asdasda
+asdasda</p>
+<h2 id="message-3">Message 3</h2>
+<p>dsadasdsa
+sdadasd
+adasdsa
+asdasdas</p>
+]]></content><category scheme="http://davidrd-es.github.io/authors/drd" term="drd" label="drd"/><category scheme="http://davidrd-es.github.io/tags/devops" term="devops" label="devops"/><category scheme="http://davidrd-es.github.io/tags/k8s" term="k8s" label="k8s"/></entry></feed>

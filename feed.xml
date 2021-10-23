@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">davidrd-es</title><subtitle type="html">Sandbox</subtitle><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-23T06:40:24+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">another-post</title><link href="http://davidrd-es.github.io/posts/another-post/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/another-post/</id><published>2021-10-22T12:29:59+02:00</published><updated>2021-10-22T12:29:59+02:00</updated><content type="html"><![CDATA[
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">davidrd-es</title><subtitle type="html">Sandbox</subtitle><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-23T07:27:45+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">another-post</title><link href="http://davidrd-es.github.io/posts/another-post/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/another-post/</id><published>2021-10-22T12:29:59+02:00</published><updated>2021-10-22T12:29:59+02:00</updated><content type="html"><![CDATA[
 
 
   <div class="gblog-toc gblog-toc__level--1"><nav id="TableOfContents">
@@ -459,8 +459,11 @@ Ornateness bland it ex enc, est yeti am bongo detract re.
               <ul>
                 <li><a href="#italic">Italic</a></li>
                 <li><a href="#bold">Bold</a></li>
+                <li><a href="#strikethrough">Strikethrough</a></li>
               </ul>
             </li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#definition-list">Definition List</a></li>
           </ul>
         </li>
       </ul>
@@ -843,12 +846,43 @@ Ornateness bland it ex enc, est yeti am bongo detract re.
 <p>aaa <em>italicized text</em></p>
 <h4 id="bold">Bold</h4>
 <p>aaa <strong>bold text</strong></p>
+<h4 id="strikethrough">Strikethrough</h4>
+<p><del>The world is flat.</del></p>
+<h3 id="code">Code</h3>
 <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
   <span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;John&#34;</span><span class="p">,</span>
   <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Smith&#34;</span><span class="p">,</span>
   <span class="nt">&#34;age&#34;</span><span class="p">:</span> <span class="mi">25</span>
 <span class="p">}</span>
-</code></pre></div>]]></content><category scheme="http://davidrd-es.github.io/authors/drd" term="drd" label="drd"/><category scheme="http://davidrd-es.github.io/tags/Open-Source" term="Open-Source" label="Open Source"/><category scheme="http://davidrd-es.github.io/tags/devops" term="devops" label="devops"/><category scheme="http://davidrd-es.github.io/tags/k8s" term="k8s" label="k8s"/></entry><entry><title type="html">My ssssss Post</title><link href="http://davidrd-es.github.io/posts/my-first-post2/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/my-first-post2/</id><author><name>David RD</name></author><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[<h2 id="this-is-a-message">This is a message</h2>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="s2">&#34;JavaScript syntax highlighting&#34;</span><span class="p">;</span>
+<span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">s</span> <span class="o">=</span> <span class="s2">&#34;Python syntax highlighting&#34;</span>
+<span class="k">print</span> <span class="n">s</span>
+</code></pre></div><pre><code>No language indicated, so no syntax highlighting. 
+But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+</code></pre><h3 id="definition-list">Definition List</h3>
+<dl>
+<dt>term</dt>
+<dd>definition</dd>
+</dl>
+<p>Here&rsquo;s a sentence with a footnote. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Write the press release</li>
+<li><input disabled="" type="checkbox"> Update the website</li>
+<li><input disabled="" type="checkbox"> Contact the media</li>
+</ul>
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>This is the footnote. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content><category scheme="http://davidrd-es.github.io/authors/drd" term="drd" label="drd"/><category scheme="http://davidrd-es.github.io/tags/Open-Source" term="Open-Source" label="Open Source"/><category scheme="http://davidrd-es.github.io/tags/devops" term="devops" label="devops"/><category scheme="http://davidrd-es.github.io/tags/k8s" term="k8s" label="k8s"/></entry><entry><title type="html">My ssssss Post</title><link href="http://davidrd-es.github.io/posts/my-first-post2/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/my-first-post2/</id><author><name>David RD</name></author><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[<h2 id="this-is-a-message">This is a message</h2>
 <h2 id="message-2">Message 2</h2>
 <p>dadasdasdasd
 asadadsa

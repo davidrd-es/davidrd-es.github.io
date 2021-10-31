@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">davidrd-es</title><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-31T10:02:37+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">template</title><link href="http://davidrd-es.github.io/posts/template/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/template/</id><author><name>David RD</name></author><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[<p>This sets the summary2.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">Pepo The IT Dog</title><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-31T13:26:14+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">template</title><link href="http://davidrd-es.github.io/posts/template/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/template/</id><author><name>David RD</name></author><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[<p>This sets the summary2.</p>
   <div class="gblog-toc gblog-toc__level--1"><nav id="TableOfContents">
   <ul>
     <li>
       <ul>
+        <li><a href="#footnotes">Footnotes</a></li>
         <li><a href="#images">Images</a>
           <ul>
             <li><a href="#picture">Picture</a></li>
@@ -36,6 +37,8 @@
               </ul>
             </li>
             <li><a href="#code">Code</a></li>
+            <li><a href="#code1">Code1</a></li>
+            <li><a href="#code2">Code2</a></li>
             <li><a href="#definition-list">Definition List</a></li>
           </ul>
         </li>
@@ -45,6 +48,8 @@
 </nav><hr></div>
 
 
+<h2 id="footnotes">Footnotes</h2>
+<p>Here&rsquo;s a sentence with a footnote. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <h2 id="images">Images</h2>
 <p>aaaaaaaaa</p>
 <h3 id="picture">Picture</h3>
@@ -323,7 +328,7 @@ Ornateness bland it ex enc, est yeti am bongo detract re.
 
 <svg class="icon thumbs-up"><use xlink:href="#thumbs-up"></use></svg>
 <svg class="icon thumbs-up"><use xlink:href="#thumbs-up"></use></svg>
-<svg class="icon thumbs-down"><use xlink:href="#thumbs-down"></use></svg></p>
+<svg class="icon pngconverted"><use xlink:href="#pngconverted"></use></svg></p>
 <h2 id="tabs">Tabs</h2>
 
 
@@ -427,9 +432,11 @@ Ornateness bland it ex enc, est yeti am bongo detract re.
   <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Smith&#34;</span><span class="p">,</span>
   <span class="nt">&#34;age&#34;</span><span class="p">:</span> <span class="mi">25</span>
 <span class="p">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="s2">&#34;JavaScript syntax highlighting&#34;</span><span class="p">;</span>
+</code></pre></div><h3 id="code1">Code1</h3>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="s2">&#34;JavaScript syntax highlighting&#34;</span><span class="p">;</span>
 <span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">s</span> <span class="o">=</span> <span class="s2">&#34;Python syntax highlighting&#34;</span>
+</code></pre></div><h3 id="code2">Code2</h3>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">s</span> <span class="o">=</span> <span class="s2">&#34;Python syntax highlighting&#34;</span>
 <span class="k">print</span> <span class="n">s</span>
 </code></pre></div><pre><code>No language indicated, so no syntax highlighting. 
 But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
@@ -438,15 +445,14 @@ But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
 <dt>term</dt>
 <dd>definition</dd>
 </dl>
-<p>Here&rsquo;s a sentence with a footnote. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> Write the press release</li>
 <li>[-] Update the website</li>
 <li><input disabled="" type="checkbox"> Contact the media</li>
 </ul>
-<p><a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&v=1M4ADcMn3dA
+" target="_blank"><img src="http://img.youtube.com/vi/1M4ADcMn3dA/0.jpg"
+alt="Rammstein" width="480" height="360" border="10" /></a></p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

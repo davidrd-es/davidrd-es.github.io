@@ -14,3 +14,15 @@
 	display:inline-block;
 	margin:.25rem
 }
+
+@font-face{
+	font-family:"Cyberpunks";
+	src:url(fonts/Cyberpunks-Italic.woff) format("woff");
+	font-weight:700;
+	font-style:italic;
+	font-display:swap
+}
+
+.gblog-header{
+	font-family:Cyberpunks,sans-serif
+}

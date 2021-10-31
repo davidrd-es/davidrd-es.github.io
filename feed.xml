@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">Pepo The IT Dog</title><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-31T18:37:01+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">template</title><link href="http://davidrd-es.github.io/posts/template/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/template/</id><author><name>David RD</name></author><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[<p>This sets the summary2.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">Pepo The IT Dog</title><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-10-31T18:59:27+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">template</title><link href="http://davidrd-es.github.io/posts/Template-1/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/Template-1/</id><author><name>David RD</name></author><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[<p>This sets the summary2.</p>
 <p>Esto es un demo 11111111111111</p>
 <p>This is an update from surface</p>
   <div class="gblog-toc gblog-toc__level--1"><nav id="TableOfContents">
@@ -72,15 +72,15 @@
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
-    <a class="gblog-markdown__link--raw" href="/posts/template/images/aaaaaa1.png">
+    <a class="gblog-markdown__link--raw" href="/posts/Template-1/images/aaaaaa1.png">
         <picture>
             <source
                 
-                srcset="/posts/template/images/aaaaaa1_hu4ec9b067ef8d65a82ffafacba726bd3a_1179256_1800x0_resize_box_2.png"
+                srcset="/posts/Template-1/images/aaaaaa1_hu4ec9b067ef8d65a82ffafacba726bd3a_1179256_1800x0_resize_box_2.png"
                  />
             <img
                 
-                src="/posts/template/images/aaaaaa1_hu4ec9b067ef8d65a82ffafacba726bd3a_1179256_1800x0_resize_box_2.png" alt="Forest" />
+                src="/posts/Template-1/images/aaaaaa1_hu4ec9b067ef8d65a82ffafacba726bd3a_1179256_1800x0_resize_box_2.png" alt="Forest" />
         </picture>
     </a>
     
@@ -108,15 +108,15 @@
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
-    <a class="gblog-markdown__link--raw" href="/posts/template/images/test2.gif">
+    <a class="gblog-markdown__link--raw" href="/posts/Template-1/images/test2.gif">
         <picture>
             <source
                 
-                srcset="/posts/template/images/test2_hu15bd3794fd4cc6c3a8cf0ac3edb6dde0_1519344_1800x0_resize_box.gif"
+                srcset="/posts/Template-1/images/test2_hu15bd3794fd4cc6c3a8cf0ac3edb6dde0_1519344_1800x0_resize_box.gif"
                  />
             <img
                 loading="lazy"
-                src="/posts/template/images/test2_hu15bd3794fd4cc6c3a8cf0ac3edb6dde0_1519344_1800x0_resize_box.gif" alt="Forest" />
+                src="/posts/Template-1/images/test2_hu15bd3794fd4cc6c3a8cf0ac3edb6dde0_1519344_1800x0_resize_box.gif" alt="Forest" />
         </picture>
     </a>
     

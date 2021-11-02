@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">Pepo The IT Dog</title><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-11-02T18:57:12+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">Template</title><link href="http://davidrd-es.github.io/posts/Template-1/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/Template-1/</id><author><name>David RD</name></author><published>2021-10-21T12:29:59+02:00</published><updated>2021-10-21T12:29:59+02:00</updated><content type="html"><![CDATA[<p>This sets the summary2.</p>
-<p>Esto es un demo 11111111111111</p>
-<p>This is an update from surface</p>
-  <div class="gblog-toc gblog-toc__level--1"><nav id="TableOfContents">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html">Pepo The IT Dog</title><link href="http://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="http://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-11-02T18:59:45+00:00</updated><id>http://davidrd-es.github.io/</id><entry><title type="html">Considerations before build Kubernetes cluster</title><link href="http://davidrd-es.github.io/posts/k8s-series-1/?utm_source=atom_feed" rel="alternate" type="text/html" hreflang="en"/><id>http://davidrd-es.github.io/posts/k8s-series-1/</id><author><name>David RD</name></author><published>0001-01-01T00:00:00+00:00</published><updated>0001-01-01T00:00:00+00:00</updated><content type="html"><![CDATA[<div class="flex justify-center">
+<figure class="gblog-post__figure">
+    <a class="gblog-markdown__link--raw" href="/posts/k8s-series-1/images/Kubernetes-logo.png">
+        <picture>
+            <source
+                
+                srcset="/posts/k8s-series-1/images/Kubernetes-logo_hub38f4cbc2579ea3d4b8f31efafeaaa8f_65753_320x0_resize_box_2.png"
+                 />
+            <img
+                loading="lazy"
+                src="/posts/k8s-series-1/images/Kubernetes-logo_hub38f4cbc2579ea3d4b8f31efafeaaa8f_65753_1800x0_resize_box_2.png" alt="" />
+        </picture>
+    </a>
+    
+</figure>
+</div>
+
+
+<p>Building a Kubernetes cluster outside of Cloud managed solutions (AKS, EKS, GKE&hellip;) could be a complex task, on this post we will summarize some of the aspects to consider when we have to deploy a kubernetes cluster.</p>
+<blockquote class="gblog-hint danger">
+  <strong>Disclaimer:</strong>
+This is a personal blog. Any views or opinions represented in this blog are personal and belong solely to the blog owner and do not represent those of people, institutions or organizations that the owner may or may not be associated with in professional or personal capacity, unless explicitly stated.
+</blockquote>
+
+
+
+
+  <div class="gblog-toc gblog-toc__level--2"><nav id="TableOfContents">
   <ul>
     <li>
       <ul>
-        <li><a href="#footnotes">Footnotes</a></li>
-        <li><a href="#images">Images</a>
+        <li><a href="#purpose"><strong>Purpose</strong></a></li>
+        <li><a href="#service"><strong>Service</strong></a></li>
+        <li><a href="#infrastructure"><strong>Infrastructure</strong></a>
           <ul>
-            <li><a href="#picture">Picture</a></li>
-            <li><a href="#gif">Gif</a></li>
-            <li><a href="#gif2">Gif2</a></li>
-          </ul>
-        </li>
-        <li><a href="#buttons">Buttons</a></li>
-        <li><a href="#diagram">Diagram</a>
-          <ul>
-            <li><a href="#sequence">Sequence</a></li>
-            <li><a href="#gant">Gant</a></li>
-            <li><a href="#flowchart">Flowchart</a></li>
-            <li><a href="#flowchart-2">Flowchart 2</a></li>
-            <li><a href="#flowchart-3">Flowchart 3</a></li>
-          </ul>
-        </li>
-        <li><a href="#hints">Hints</a></li>
-        <li><a href="#icons">Icons</a></li>
-        <li><a href="#tabs">Tabs</a></li>
-        <li><a href="#expands">Expands</a></li>
-        <li><a href="#columns">Columns</a></li>
-        <li><a href="#markdown">Markdown</a>
-          <ul>
-            <li><a href="#links">Links</a></li>
-            <li><a href="#formats">Formats</a>
+            <li><a href="#platform">Platform</a>
               <ul>
-                <li><a href="#italic">Italic</a></li>
-                <li><a href="#bold">Bold</a></li>
-                <li><a href="#strikethrough">Strikethrough</a></li>
+                <li><a href="#baremetal">Baremetal</a></li>
               </ul>
             </li>
-            <li><a href="#code">Code</a></li>
-            <li><a href="#code1">Code1</a></li>
-            <li><a href="#code2">Code2</a></li>
-            <li><a href="#definition-list">Definition List</a></li>
+            <li><a href="#operative-system">Operative System</a></li>
+            <li><a href="#container-runtime">Container Runtime</a></li>
+            <li><a href="#network">Network</a></li>
+            <li><a href="#storage">Storage</a></li>
           </ul>
         </li>
       </ul>
@@ -50,11 +50,15 @@
 </nav><hr></div>
 
 
-<h2 id="footnotes">Footnotes</h2>
-<p>Here&rsquo;s a sentence with a footnote. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<h2 id="images">Images</h2>
-<p>aaaaaaaaa</p>
-<h3 id="picture">Picture</h3>
+<h2 id="purpose"><strong>Purpose</strong></h2>
+<hr>
+<h2 id="service"><strong>Service</strong></h2>
+<hr>
+<h2 id="infrastructure"><strong>Infrastructure</strong></h2>
+<h3 id="platform">Platform</h3>
+<p>Kubernetes may run on Baremetal or Virtual Machines, there are not any limitations on this aspect, however, the platform we chose will set the operational aspects of our Kubernetes platform.</p>
+<h4 id="baremetal">Baremetal</h4>
+<p>Starting with baremetal, this kind of platform allow us dedicate all the compute resources from the hardware to our Kubernetes nodes. At first look, this may sound interesting from the performance perspective, however, if we check the operative or cost impact choosing a Baremetal platform, we can list some constraints:</p>
 
 
 
@@ -72,64 +76,46 @@
 
 <div class="flex justify-center">
 <figure class="gblog-post__figure">
-    <a class="gblog-markdown__link--raw" href="/posts/Template-1/images/aaaaaa1.png">
+    <a class="gblog-markdown__link--raw" href="/posts/k8s-series-1/images/Kubernetes-1.png">
         <picture>
             <source
                 
-                srcset="/posts/Template-1/images/aaaaaa1_hu4ec9b067ef8d65a82ffafacba726bd3a_1179256_1800x0_resize_box_2.png"
-                 />
-            <img
-                
-                src="/posts/Template-1/images/aaaaaa1_hu4ec9b067ef8d65a82ffafacba726bd3a_1179256_1800x0_resize_box_2.png" alt="Forest" />
-        </picture>
-    </a>
-    
-    <figcaption>Forest (Peporttt)</figcaption>
-    
-</figure>
-</div>
-
-
-<h3 id="gif">Gif</h3>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex justify-center">
-<figure class="gblog-post__figure">
-    <a class="gblog-markdown__link--raw" href="/posts/Template-1/images/test2.gif">
-        <picture>
-            <source
-                
-                srcset="/posts/Template-1/images/test2_hu15bd3794fd4cc6c3a8cf0ac3edb6dde0_1519344_1800x0_resize_box.gif"
+                srcset="/posts/k8s-series-1/images/Kubernetes-1_hu79226ee11e916823d3a534a6670d5444_423586_1200x0_resize_box_2.png"
                  />
             <img
                 loading="lazy"
-                src="/posts/Template-1/images/test2_hu15bd3794fd4cc6c3a8cf0ac3edb6dde0_1519344_1800x0_resize_box.gif" alt="Forest" />
+                src="/posts/k8s-series-1/images/Kubernetes-1_hu79226ee11e916823d3a534a6670d5444_423586_1800x0_resize_box_2.png" alt="Stacked Kubernetes cluster, logical view" />
         </picture>
     </a>
     
-    <figcaption>Forest</figcaption>
+    <figcaption>Stacked Kubernetes cluster, logical view (Pepo The IT Dog)</figcaption>
     
 </figure>
 </div>
 
 
-<h3 id="gif2">Gif2</h3>
-<p><img src="images/test2.gif" alt="Alt text for my gif"  /></p>
-<h2 id="buttons">Buttons</h2>
-<p>
+<ul>
+<li>
+<p><em><strong>Hardware / Maintenance costs:</strong></em></p>
+</li>
+<li>
+<p><em><strong>Maintenance costs:</strong></em></p>
+</li>
+<li>
+<p><em><strong>Recovery from failed node:</strong></em></p>
+</li>
+<li>
+<p><em><strong>Scale in / out:</strong></em></p>
+</li>
+<li>
+<p><em><strong>Automation:</strong></em></p>
+</li>
+</ul>
+<h3 id="operative-system">Operative System</h3>
+<h3 id="container-runtime">Container Runtime</h3>
+<h3 id="network">Network</h3>
+<h3 id="storage">Storage</h3>
+
 
 
 
@@ -144,322 +130,4 @@
 <a  href="/"  class="gblog-button__link">
   Get Home
 </a>
-</span>
-
-
-
-
-
-
-
-
-
-  
-
-
-<span class="gblog-button gblog-button--large ...">
-<a  href="/"  class="gblog-button__link">
-  Get Home
-</a>
-</span>
-
-
-
-
-
-
-
-  
-
-
-
-
-<span class="gblog-button gblog-button--regular">
-<a  href="https://github.com/thegeeklab/hugo-geekblog"  class="gblog-button__link">
-  Contribute
-</a>
-</span>
-</p>
-<h2 id="diagram">Diagram</h2>
-<h3 id="sequence">Sequence</h3>
-
-
-<script defer src="/js/mermaid-beaf30d1e1.min.js"></script>
-<script defer src="/js/mermaid-loader-b7fefc76fa.min.js"></script>
-
-
-
-<pre class="gblog-mermaid mermaid text-center">
-sequenceDiagram
-    Alice->>Bob: Hello Bob, how are you?
-    alt is sick
-        Bob->>Alice: Not so good :(
-        Bob->>Alice: Not so good :(
-        Bob->>Alice: Not so good :(
-        Bob->>Alice: Not so good :(
-    else is well
-        Bob->>Alice: Feeling fresh like a daisy
-    end
-    opt Extra response
-        Bob->>Alice: Thanks for asking
-    end
-</pre>
-
-
-
-<pre class="gblog-mermaid mermaid text-center">
-journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
-</pre>
-
-<h3 id="gant">Gant</h3>
-
-
-<pre class="gblog-mermaid mermaid text-center">
-gantt
-       dateFormat                YYYY-MM-DD
-       title                     Adding GANTT diagram functionality to mermaid
-       excludes                  :excludes the named dates/days from being included in a charted task..
-       section A section
-       Completed task            :done,    des1, 2014-01-06,2014-01-08
-       Active task               :active,  des2, 2014-01-09, 3d
-       Future task               :         des3, after des2, 5d
-       Future task2              :         des4, after des3, 5d
-
-       section Critical tasks
-       Completed task in the critical line :crit, done, 2014-01-06,24h
-       Implement parser and jison          :crit, done, after des1, 2d
-       Create tests for parser             :crit, active, 3d
-       Future task in critical line        :crit, 5d
-       Create tests for renderer           :2d
-       Add to mermaid                      :1d
-
-       section Documentation
-       Describe gantt syntax               :active, a1, after des1, 3d
-       Add gantt diagram to demo page      :after a1  , 20h
-       Add another diagram to demo page    :doc1, after a1  , 48h
-
-       section Last section
-       Describe gantt syntax               :after doc1, 3d
-       Add gantt diagram to demo page      :20h
-       Add another diagram to demo page    :48h
-</pre>
-
-<h3 id="flowchart">Flowchart</h3>
-
-
-<pre class="gblog-mermaid mermaid text-center">
-graph TD;
-    A-->B;
-    B-->D;
-    C-->D;
-</pre>
-
-<h3 id="flowchart-2">Flowchart 2</h3>
-
-
-<pre class="gblog-mermaid mermaid text-center">
-graph LR
-    A[Square Rect] -- Link text --> B((Circle))
-    A --> C(Round Rect)
-    B --> D{Rhombus}
-    C --> D
-</pre>
-
-<h3 id="flowchart-3">Flowchart 3</h3>
-
-
-<pre class="gblog-mermaid mermaid text-center">
-graph TB
-    sq[Square shape] --> ci((Circle shape))
-
-    subgraph A
-        od>Odd shape]-- Two line<br/>edge comment --> ro
-        di{Diamond with <br/> line break} -.-> ro(Rounded<br>square<br>shape)
-        di==>ro2(Rounded square shape)
-    end
-
-    %% Notice that no text in shape are added here instead that is appended further down
-    e --> od3>Really long text with linebreak<br>in an Odd shape]
-
-    %% Comments after double percent signs
-    e((Inner / circle<br>and some odd <br>special characters)) --> f(,.?!+-*ز)
-
-    cyr[Cyrillic]-->cyr2((Circle shape Начало));
-
-     classDef green fill:#9f6,stroke:#333,stroke-width:2px;
-     classDef orange fill:#f96,stroke:#333,stroke-width:4px;
-     class sq,e green
-     class di orange
-</pre>
-
-<h2 id="hints">Hints</h2>
-<blockquote class="gblog-hint info">
-  <strong>Markdown content</strong>
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
-Ornateness bland it ex enc, est yeti am bongo detract re.
-</blockquote>
-
-<blockquote class="gblog-hint ok">
-  <strong>Markdown content</strong>
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
-Ornateness bland it ex enc, est yeti am bongo detract re.
-</blockquote>
-
-<blockquote class="gblog-hint warning">
-  <strong>Markdown content</strong>
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
-Ornateness bland it ex enc, est yeti am bongo detract re.
-</blockquote>
-
-<blockquote class="gblog-hint danger">
-  <strong>Markdown content</strong>
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
-Ornateness bland it ex enc, est yeti am bongo detract re.
-</blockquote>
-
-<h2 id="icons">Icons</h2>
-<p><span class="emoji">🙈</span>
-
-<svg class="icon thumbs-up"><use xlink:href="#thumbs-up"></use></svg>
-<svg class="icon thumbs-up"><use xlink:href="#thumbs-up"></use></svg>
-<svg class="icon pngconverted"><use xlink:href="#pngconverted"></use></svg></p>
-<h2 id="tabs">Tabs</h2>
-
-
-
-
-<div class="gblog-tabs">
-  
-    <input type="radio" class="gblog-tabs__control hidden" name="tabs-uniqueid" id="tabs-uniqueid-0"
-      checked="checked"  />
-    <label for="tabs-uniqueid-0" class="gblog-tabs__label">
-      macOS
-    </label>
-    <div class="gblog-markdown--nested gblog-tabs__content">
-      <h1 id="macos-content">macOS Content</h1>
-    </div>
-  
-    <input type="radio" class="gblog-tabs__control hidden" name="tabs-uniqueid" id="tabs-uniqueid-1"
-       />
-    <label for="tabs-uniqueid-1" class="gblog-tabs__label">
-      Linux
-    </label>
-    <div class="gblog-markdown--nested gblog-tabs__content">
-      <h1 id="linux-content">Linux Content</h1>
-    </div>
-  
-    <input type="radio" class="gblog-tabs__control hidden" name="tabs-uniqueid" id="tabs-uniqueid-2"
-       />
-    <label for="tabs-uniqueid-2" class="gblog-tabs__label">
-      Windows
-    </label>
-    <div class="gblog-markdown--nested gblog-tabs__content">
-      <h1 id="windows-content">Windows Content</h1>
-    </div>
-  
-</div>
-
-<h2 id="expands">Expands</h2>
-
-<div class="gblog-expand">
-  <label class="gblog-expand__head flex justify-between" for="b082e31c-21">
-    <span>Custom Label</span>
-    <span>...</span>
-  </label>
-  <input id="b082e31c-21" type="checkbox" class="gblog-expand__control hidden" />
-  <div class="gblog-markdown--nested gblog-expand__content">
-    <h2 id="markdown-content">Markdown content</h2>
-<p>Dolor sit, sumo unique &hellip;
-  </div>
-</div>
-
-<h2 id="columns">Columns</h2>
-<div class="gblog-columns flex flex-wrap">
-  
-  <div class="gblog-columns__content gblog-markdown--nested flex-even">
-    <!-- begin columns block -->
-<h2 id="left-content">Left Content</h2>
-<p>Dolor sit, sumo unique argument um no &hellip;
-  </div>
-  
-  <div class="gblog-columns__content gblog-markdown--nested flex-even">
-    <!-- magic sparator, between columns -->
-<h2 id="mid-content">Mid Content</h2>
-<p>Dolor sit, sumo unique argument um no &hellip;
-  </div>
-  
-  <div class="gblog-columns__content gblog-markdown--nested flex-even">
-    <!-- magic sparator, between columns -->
-<h2 id="right-content">Right Content</h2>
-<p>Dolor sit, sumo unique argument um no &hellip;
-  </div>
-  
-</div>
-
-<ul>
-<li>Test 1
-<ul>
-<li>test 1.2</li>
-<li>test 2.2</li>
-</ul>
-</li>
-<li>Test 2
-<ul>
-<li>Test 2.1</li>
-<li>Test 2.2</li>
-</ul>
-</li>
-</ul>
-<h2 id="markdown">Markdown</h2>
-<h3 id="links">Links</h3>
-<p><a class="gblog-markdown__link" href="https://www.example.com">title</a></p>
-<h3 id="formats">Formats</h3>
-<h4 id="italic">Italic</h4>
-<p>aaa <em>italicized text</em></p>
-<h4 id="bold">Bold</h4>
-<p>aaa <strong>bold text</strong></p>
-<h4 id="strikethrough">Strikethrough</h4>
-<p><del>The world is flat.</del></p>
-<h3 id="code">Code</h3>
-<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
-  <span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;John&#34;</span><span class="p">,</span>
-  <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Smith&#34;</span><span class="p">,</span>
-  <span class="nt">&#34;age&#34;</span><span class="p">:</span> <span class="mi">25</span>
-<span class="p">}</span>
-</code></pre></div><h3 id="code1">Code1</h3>
-<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="s2">&#34;JavaScript syntax highlighting&#34;</span><span class="p">;</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
-</code></pre></div><h3 id="code2">Code2</h3>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">s</span> <span class="o">=</span> <span class="s2">&#34;Python syntax highlighting&#34;</span>
-<span class="k">print</span> <span class="n">s</span>
-</code></pre></div><pre><code>No language indicated, so no syntax highlighting. 
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
-</code></pre><h3 id="definition-list">Definition List</h3>
-<dl>
-<dt>term</dt>
-<dd>definition</dd>
-</dl>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Write the press release</li>
-<li>[-] Update the website</li>
-<li><input disabled="" type="checkbox"> Contact the media</li>
-</ul>
-<p><a href="http://www.youtube.com/watch?feature=player_embedded&v=1M4ADcMn3dA
-" target="_blank"><img src="http://img.youtube.com/vi/1M4ADcMn3dA/0.jpg"
-alt="Rammstein" width="480" height="360" border="10" /></a></p>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p>This is the footnote. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>]]></content><category scheme="http://davidrd-es.github.io/authors/drd" term="drd" label="drd"/><category scheme="http://davidrd-es.github.io/tags/Template" term="Template" label="Template"/></entry></feed>
+</span>]]></content><category scheme="http://davidrd-es.github.io/authors/drd" term="drd" label="drd"/><category scheme="http://davidrd-es.github.io/tags/Kubernetes" term="Kubernetes" label="Kubernetes"/></entry></feed>

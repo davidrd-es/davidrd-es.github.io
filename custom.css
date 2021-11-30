@@ -1,0 +1,82 @@
+/* You can add custom styles here. */
+.gblog-header{
+	background:#5caf0f;
+	color:#fff;
+	padding:1rem 0
+}
+
+.gblog-nav__entry{
+	color:#f8f9fa;
+	text-decoration:none;
+	padding:.25rem .5rem;
+	border:1px solid;
+	border-radius:.15rem;
+	display:inline-block;
+	margin:.25rem
+}
+
+@font-face{
+	font-family:"Cyberpunks";
+	src:url(fonts/Cyberpunks-Italic.woff) format("woff");
+	font-weight:700;
+	font-style:italic;
+	font-display:swap
+}
+
+.gblog-header{
+	font-family:Cyberpunks,sans-serif
+}
+
+/* Comments styles 
+
+#comments {
+	margin-top: 30px;
+  }
+  
+  .gh-comment {
+  border: 1px solid #d1d5da;
+  margin-top: 15px;
+  }
+  
+  .gh-header {
+  display: flex;
+  color: #586069;
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #d1d5da;
+  padding: 10px;
+  font-size: 85%;
+  }
+  
+  .gh-username {
+  color: #586069;
+  }
+  
+  .gh-body {
+  padding: 10px 15px;
+  }
+  
+  .gh-body code {
+  font-size: 120%;
+  }
+  .gh-body > div.highlight > pre {
+  padding: 10px;
+  color: lime;
+  font-size: 120%;
+  background-color: #000;
+  border-radius: 5px;
+  }
+  
+  .gh-comment p {
+  margin: 0px 0px 10px 0px;
+  }
+  .gh-comment p:last-child {
+  margin: 0;
+  }
+  
+  .gh-header > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+  }
+*/

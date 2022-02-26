@@ -3,6 +3,13 @@
 	background:#5caf0f;
 	color:#fff;
 	padding:1rem 0
+  
+}
+
+.gblog-brand__img{
+	margin-right:1rem;
+	width:100px;
+	height:100px
 }
 
 .gblog-nav__entry{

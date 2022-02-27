@@ -2,8 +2,12 @@
 .gblog-header{
 	background:#5caf0f;
 	color:#fff;
-	padding:1rem 0
-  
+	padding:1rem 0;
+	font-family:Cyberpunks,sans-serif;  
+}
+
+.gblog-brand__title{
+    font-size: xxx-large;
 }
 
 .gblog-brand__img{
@@ -30,60 +34,151 @@
 	font-display:swap
 }
 
-.gblog-header{
-	font-family:Cyberpunks,sans-serif;
-}
-
-/* Comments styles 
-
-#comments {
-	margin-top: 30px;
+:root {
+	--code-max-height: 60rem;
   }
   
-  .gh-comment {
-  border: 1px solid #d1d5da;
-  margin-top: 15px;
+  /* Light mode theming */
+  :root,
+  :root[color-mode="light"] {
+	--header-background: #5caf0f;
+	--header-font-color: #ffffff;
+  
+	--body-background: #ffffff;
+	--body-font-color: #343a40;
+  
+	--mark-color: #5caf0f;
+  
+	--button-background: #5caf0f;
+	--button-border-color: #5caf0f;
+  
+	--link-color: #5caf0f;
+	--link-color-visited: #5caf0f;
+  
+	--code-background: #f5f6f8;
+	--code-accent-color: #e3e7eb;
+	--code-accent-color-lite: #eff1f3;
+  
+	--code-copy-font-color: #6b7784;
+	--code-copy-border-color: #adb4bc;
+	--code-copy-success-color: #5caf0f;
+  
+	--accent-color-dark: #868e96;
+	--accent-color: #e9ecef;
+	--accent-color-lite: #f8f9fa;
+  
+	--control-icons: #b2bac1;
+  
+	--footer-background: #2f333e;
+	--footer-font-color: #ffffff;
+	--footer-link-color: #5caf0f;
+	--footer-link-color-visited: #5caf0f;
+  }
+  @media (prefers-color-scheme: light) {
+	:root {
+	  --header-background: #5caf0f;
+	  --header-font-color: #ffffff;
+  
+	  --body-background: #ffffff;
+	  --body-font-color: #343a40;
+  
+	  --mark-color: #5caf0f;
+  
+	  --button-background: #5caf0f;
+	  --button-border-color: #5caf0f;
+  
+	  --link-color: #518169;
+	  --link-color-visited: #5caf0f;
+  
+	  --code-background: #f5f6f8;
+	  --code-accent-color: #e3e7eb;
+	  --code-accent-color-lite: #eff1f3;
+  
+	  --code-copy-font-color: #6b7784;
+	  --code-copy-border-color: #adb4bc;
+	  --code-copy-success-color: #5caf0f;
+  
+	  --accent-color-dark: #868e96;
+	  --accent-color: #e9ecef;
+	  --accent-color-lite: #f8f9fa;
+  
+	  --control-icons: #b2bac1;
+  
+	  --footer-background: #2f333e;
+	  --footer-font-color: #ffffff;
+	  --footer-link-color: #5caf0f;
+	  --footer-link-color-visited: #5caf0f;
+	}
   }
   
-  .gh-header {
-  display: flex;
-  color: #586069;
-  background-color: #f6f8fa;
-  border-bottom: 1px solid #d1d5da;
-  padding: 10px;
-  font-size: 85%;
-  }
+  /* Dark mode theming */
+  :root[color-mode="dark"] {
+	--header-background: #5caf0f;
+	--header-font-color: #ffffff;
   
-  .gh-username {
-  color: #586069;
-  }
+	--body-background: #151516;
+	--body-font-color: #ced3d8;
   
-  .gh-body {
-  padding: 10px 15px;
-  }
+	--mark-color: #5caf0f;
   
-  .gh-body code {
-  font-size: 120%;
-  }
-  .gh-body > div.highlight > pre {
-  padding: 10px;
-  color: lime;
-  font-size: 120%;
-  background-color: #000;
-  border-radius: 5px;
-  }
+	--button-background: #5caf0f;
+	--button-border-color: #5caf0f;
   
-  .gh-comment p {
-  margin: 0px 0px 10px 0px;
-  }
-  .gh-comment p:last-child {
-  margin: 0;
-  }
+	--link-color: #5caf0f;
+	--link-color-visited: #5caf0f;
   
-  .gh-header > img {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-  vertical-align: middle;
+	--code-background: #2f353a;
+	--code-accent-color: #262b2f;
+	--code-accent-color-lite: #2b3035;
+  
+	--code-copy-font-color: #adb4bc;
+	--code-copy-border-color: #808c98;
+	--code-copy-success-color: #5caf0f;
+  
+	--accent-color-dark: #222629;
+	--accent-color: #2b3035;
+	--accent-color-lite: #2f353a;
+  
+	--control-icons: #b2bac1;
+  
+	--footer-background: #2f333e;
+	--footer-font-color: #ffffff;
+	--footer-link-color: #5caf0f;
+	--footer-link-color-visited: #5caf0f;
   }
-*/
+  @media (prefers-color-scheme: dark) {
+	:root {
+	  --header-background: #5caf0f;
+	  --header-font-color: #ffffff;
+  
+	  --body-background: #151516;
+	  --body-font-color: #ced3d8;
+  
+	  --mark-color: #5caf0f;
+  
+	  --button-background: #5caf0f;
+	  --button-border-color: #5caf0f;
+  
+	  --link-color: #5caf0f;
+	  --link-color-visited: #5caf0f;
+  
+	  --code-background: #2f353a;
+	  --code-accent-color: #262b2f;
+	  --code-accent-color-lite: #2b3035;
+  
+	  --code-copy-font-color: #adb4bc;
+	  --code-copy-border-color: #808c98;
+	  --code-copy-success-color: #5caf0f;
+  
+	  --accent-color-dark: #222629;
+	  --accent-color: #2b3035;
+	  --accent-color-lite: #2f353a;
+  
+	  --control-icons: #b2bac1;
+  
+	  --footer-background: #2f333e;
+	  --footer-font-color: #ffffff;
+	  --footer-link-color: #5caf0f;
+	  --footer-link-color-visited: #5caf0f;
+	}
+  }

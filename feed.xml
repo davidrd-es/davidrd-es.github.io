@@ -1,1 +1,1361 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title>Pepo The IT Dog</title><link href="https://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="https://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-02-28T10:05:55+00:00</updated><id>https://davidrd-es.github.io/</id><entry><title>About</title><link href="https://davidrd-es.github.io/about/page/" rel="alternate" type="text/html" hreflang="en"/><id>https://davidrd-es.github.io/about/page/</id><published>2021-10-22T17:17:09+02:00</published><updated>2021-10-22T17:17:09+02:00</updated><content type="html"/></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title>Pepo The IT Dog</title><link href="https://davidrd-es.github.io/" rel="alternate" type="text/html" title="HTML"/><link href="https://davidrd-es.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-02-28T10:14:03+00:00</updated><id>https://davidrd-es.github.io/</id><entry><title>Template Post</title><link href="https://davidrd-es.github.io/0/22020226-post/page/" rel="alternate" type="text/html" hreflang="en"/><id>https://davidrd-es.github.io/0/22020226-post/page/</id><published>2021-10-22T17:17:09+02:00</published><updated>2021-10-22T17:17:09+02:00</updated><content type="html">
+&lt;p>ENGLISH&lt;/p>
+&lt;p>This sets the summary2.&lt;/p>
+&lt;p>Esto es un demo 11111111111111&lt;/p>
+&lt;p>This is an update from surface&lt;/p>
+&lt;div class="gblog-toc gblog-toc__level--1">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#headings">Headings&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#h1">H1&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h2">H2&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h3">H3&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h4">H4&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h5">H5&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h6">H6&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#blockquotes">Blockquotes&lt;/a>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#blockquote-without-attribution">Blockquote without attribution&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#blockquote-with-attribution">Blockquote with attribution&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#footnotes">Footnotes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#images">Images&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#picture">Picture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#gif">Gif&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#gif2">Gif2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#buttons">Buttons&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#diagram">Diagram&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#sequence">Sequence&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#gant">Gant&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#flowchart">Flowchart&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#flowchart-2">Flowchart 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#flowchart-3">Flowchart 3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#hints">Hints&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#icons">Icons&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tabs">Tabs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#expands">Expands&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#columns">Columns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#markdown">Markdown&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tables">Tables&lt;/a>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#inline-markdown-within-tables">Inline Markdown within tables&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ordered-list">Ordered List&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#unordered-list">Unordered List&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#nested-list">Nested list&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#links">Links&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#formats">Formats&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#italic">Italic&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#bold">Bold&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#strikethrough">Strikethrough&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#code">Code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code1">Code1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code2">Code2&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#code-block-with-backticks">Code block with backticks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#definition-list">Definition List&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#media-links">Media Links&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#twitter-simple-shortcode">Twitter Simple Shortcode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#vimeo-simple-shortcode">Vimeo Simple Shortcode&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#vagus-elidunt">Vagus elidunt&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#examples">Examples&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;hr />
+&lt;/div>
+&lt;h2 id="headings">Headings&lt;/h2>
+&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2">H2&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;h5 id="h5">H5&lt;/h5>
+&lt;h6 id="h6">H6&lt;/h6>
+&lt;h2 id="blockquotes">Blockquotes&lt;/h2>
+&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
+&lt;h4 id="blockquote-without-attribution">Blockquote without attribution&lt;/h4>
+&lt;blockquote>
+&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="blockquote-with-attribution">Blockquote with attribution&lt;/h4>
+&lt;blockquote>
+&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
+— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="footnotes">Footnotes&lt;/h2>
+&lt;p>Here&amp;rsquo;s a sentence with a footnote. &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="images">Images&lt;/h2>
+&lt;p>aaaaaaaaa&lt;/p>
+&lt;h3 id="picture">Picture&lt;/h3>
+&lt;h3 id="gif">Gif&lt;/h3>
+&lt;h3 id="gif2">Gif2&lt;/h3>
+&lt;p>&lt;img
+src="../img/test2.gif"
+alt="Alt text for my gif"
+/>&lt;/p>
+&lt;h2 id="buttons">Buttons&lt;/h2>
+&lt;p>
+&lt;span
+class="gblog-button gblog-button--regular
+...
+"
+>
+&lt;a href="/" class="gblog-button__link">
+Get Home
+&lt;/a>
+&lt;/span>
+&lt;span
+class="gblog-button gblog-button--large
+...
+"
+>
+&lt;a href="/" class="gblog-button__link">
+Get Home
+&lt;/a>
+&lt;/span>
+&lt;span
+class="gblog-button gblog-button--regular"
+>
+&lt;a href="https://github.com/thegeeklab/hugo-geekblog" class="gblog-button__link">
+Contribute
+&lt;/a>
+&lt;/span>
+&lt;/p>
+&lt;h2 id="diagram">Diagram&lt;/h2>
+&lt;h3 id="sequence">Sequence&lt;/h3>
+&lt;script defer src="/js/mermaid-38e1f899.bundle.min.js">&lt;/script>
+&lt;pre class="gblog-mermaid mermaid text-center">
+sequenceDiagram
+Alice->>Bob: Hello Bob, how are you?
+alt is sick
+Bob->>Alice: Not so good :(
+Bob->>Alice: Not so good :(
+Bob->>Alice: Not so good :(
+Bob->>Alice: Not so good :(
+else is well
+Bob->>Alice: Feeling fresh like a daisy
+end
+opt Extra response
+Bob->>Alice: Thanks for asking
+end
+&lt;/pre>
+&lt;pre class="gblog-mermaid mermaid text-center">
+journey
+title My working day
+section Go to work
+Make tea: 5: Me
+Go upstairs: 3: Me
+Do work: 1: Me, Cat
+section Go home
+Go downstairs: 5: Me
+Sit down: 5: Me
+&lt;/pre>
+&lt;h3 id="gant">Gant&lt;/h3>
+&lt;pre class="gblog-mermaid mermaid text-center">
+gantt
+dateFormat YYYY-MM-DD
+title Adding GANTT diagram functionality to mermaid
+excludes :excludes the named dates/days from being included in a charted task..
+section A section
+Completed task :done, des1, 2014-01-06,2014-01-08
+Active task :active, des2, 2014-01-09, 3d
+Future task : des3, after des2, 5d
+Future task2 : des4, after des3, 5d
+section Critical tasks
+Completed task in the critical line :crit, done, 2014-01-06,24h
+Implement parser and jison :crit, done, after des1, 2d
+Create tests for parser :crit, active, 3d
+Future task in critical line :crit, 5d
+Create tests for renderer :2d
+Add to mermaid :1d
+section Documentation
+Describe gantt syntax :active, a1, after des1, 3d
+Add gantt diagram to demo page :after a1 , 20h
+Add another diagram to demo page :doc1, after a1 , 48h
+section Last section
+Describe gantt syntax :after doc1, 3d
+Add gantt diagram to demo page :20h
+Add another diagram to demo page :48h
+&lt;/pre>
+&lt;h3 id="flowchart">Flowchart&lt;/h3>
+&lt;pre class="gblog-mermaid mermaid text-center">
+graph TD;
+A-->B;
+B-->D;
+C-->D;
+&lt;/pre>
+&lt;h3 id="flowchart-2">Flowchart 2&lt;/h3>
+&lt;pre class="gblog-mermaid mermaid text-center">
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+&lt;/pre>
+&lt;h3 id="flowchart-3">Flowchart 3&lt;/h3>
+&lt;pre class="gblog-mermaid mermaid text-center">
+graph TB
+sq[Square shape] --> ci((Circle shape))
+subgraph A
+od>Odd shape]-- Two line&lt;br/>edge comment --> ro
+di{Diamond with &lt;br/> line break} -.-> ro(Rounded&lt;br>square&lt;br>shape)
+di==>ro2(Rounded square shape)
+end
+%% Notice that no text in shape are added here instead that is appended further down
+e --> od3>Really long text with linebreak&lt;br>in an Odd shape]
+%% Comments after double percent signs
+e((Inner / circle&lt;br>and some odd &lt;br>special characters)) --> f(,.?!+-*ز)
+cyr[Cyrillic]-->cyr2((Circle shape Начало));
+classDef green fill:#9f6,stroke:#333,stroke-width:2px;
+classDef orange fill:#f96,stroke:#333,stroke-width:4px;
+class sq,e green
+class di orange
+&lt;/pre>
+&lt;h2 id="hints">Hints&lt;/h2>
+&lt;blockquote class="gblog-hint info">
+&lt;strong>Markdown content&lt;/strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+&lt;/blockquote>
+&lt;blockquote class="gblog-hint ok">
+&lt;strong>Markdown content&lt;/strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+&lt;/blockquote>
+&lt;blockquote class="gblog-hint warning">
+&lt;strong>Markdown content&lt;/strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+&lt;/blockquote>
+&lt;blockquote class="gblog-hint danger">
+&lt;strong>Markdown content&lt;/strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+&lt;/blockquote>
+&lt;h2 id="icons">Icons&lt;/h2>
+&lt;p>&lt;span class="emoji">🙈&lt;/span>
+&lt;svg class="icon thumbs-up">&lt;use xlink:href="#thumbs-up">&lt;/use>&lt;/svg>
+&lt;svg class="icon thumbs-up">&lt;use xlink:href="#thumbs-up">&lt;/use>&lt;/svg>
+&lt;svg class="icon pngconverted">&lt;use xlink:href="#pngconverted">&lt;/use>&lt;/svg>&lt;/p>
+&lt;h2 id="tabs">Tabs&lt;/h2>
+&lt;div class="gblog-tabs">
+&lt;input
+type="radio"
+class="gblog-tabs__control hidden"
+name="tabs-uniqueid"
+id="tabs-uniqueid-0"
+checked="checked"
+/>
+&lt;label for="tabs-uniqueid-0" class="gblog-tabs__label">
+macOS
+&lt;/label>
+&lt;div class="gblog-markdown--nested gblog-tabs__content">
+&lt;h1 id="macos-content">macOS Content&lt;/h1>
+&lt;/div>
+&lt;input
+type="radio"
+class="gblog-tabs__control hidden"
+name="tabs-uniqueid"
+id="tabs-uniqueid-1"
+/>
+&lt;label for="tabs-uniqueid-1" class="gblog-tabs__label">
+Linux
+&lt;/label>
+&lt;div class="gblog-markdown--nested gblog-tabs__content">
+&lt;h1 id="linux-content">Linux Content&lt;/h1>
+&lt;/div>
+&lt;input
+type="radio"
+class="gblog-tabs__control hidden"
+name="tabs-uniqueid"
+id="tabs-uniqueid-2"
+/>
+&lt;label for="tabs-uniqueid-2" class="gblog-tabs__label">
+Windows
+&lt;/label>
+&lt;div class="gblog-markdown--nested gblog-tabs__content">
+&lt;h1 id="windows-content">Windows Content&lt;/h1>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="expands">Expands&lt;/h2>
+&lt;div class="gblog-expand">
+&lt;label class="gblog-expand__head flex justify-between" for="b082e31c-21">
+&lt;span>Custom Label&lt;/span>
+&lt;span>...&lt;/span>
+&lt;/label>
+&lt;input id="b082e31c-21" type="checkbox" class="gblog-expand__control hidden" />
+&lt;div class="gblog-markdown--nested gblog-expand__content">
+&lt;h2 id="markdown-content">Markdown content&lt;/h2>
+&lt;p>Dolor sit, sumo unique &amp;hellip;
+&lt;/div>
+&lt;/div>
+&lt;h2 id="columns">Columns&lt;/h2>
+&lt;div class="gblog-columns flex flex-wrap flex-mobile-column">
+&lt;div class="gblog-columns__content gblog-markdown--nested flex-even">
+&lt;!-- begin columns block -->
+&lt;h2 id="left-content">Left Content&lt;/h2>
+&lt;p>Dolor sit, sumo unique argument um no &amp;hellip;
+&lt;/div>
+&lt;div class="gblog-columns__content gblog-markdown--nested flex-even">
+&lt;!-- magic sparator, between columns -->
+&lt;h2 id="mid-content">Mid Content&lt;/h2>
+&lt;p>Dolor sit, sumo unique argument um no &amp;hellip;
+&lt;/div>
+&lt;div class="gblog-columns__content gblog-markdown--nested flex-even">
+&lt;!-- magic sparator, between columns -->
+&lt;h2 id="right-content">Right Content&lt;/h2>
+&lt;p>Dolor sit, sumo unique argument um no &amp;hellip;
+&lt;/div>
+&lt;/div>
+&lt;ul>
+&lt;li>Test 1
+&lt;ul>
+&lt;li>test 1.2&lt;/li>
+&lt;li>test 2.2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Test 2
+&lt;ul>
+&lt;li>Test 2.1&lt;/li>
+&lt;li>Test 2.2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="markdown">Markdown&lt;/h2>
+&lt;h2 id="tables">Tables&lt;/h2>
+&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Age&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bob&lt;/td>
+&lt;td>27&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alice&lt;/td>
+&lt;td>23&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="inline-markdown-within-tables">Inline Markdown within tables&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Italics&lt;/th>
+&lt;th>Bold&lt;/th>
+&lt;th>Code&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>italics&lt;/em>&lt;/td>
+&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
+&lt;td>&lt;code>code&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="ordered-list">Ordered List&lt;/h4>
+&lt;ol>
+&lt;li>First item&lt;/li>
+&lt;li>Second item&lt;/li>
+&lt;li>Third item&lt;/li>
+&lt;/ol>
+&lt;h4 id="unordered-list">Unordered List&lt;/h4>
+&lt;ul>
+&lt;li>List item&lt;/li>
+&lt;li>Another item&lt;/li>
+&lt;li>And another item&lt;/li>
+&lt;/ul>
+&lt;h4 id="nested-list">Nested list&lt;/h4>
+&lt;ul>
+&lt;li>Fruit
+&lt;ul>
+&lt;li>Apple&lt;/li>
+&lt;li>Orange&lt;/li>
+&lt;li>Banana&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Dairy
+&lt;ul>
+&lt;li>Milk&lt;/li>
+&lt;li>Cheese&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark&lt;/h2>
+&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
+&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
+&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
+&lt;p>Press &lt;kbd>&lt;kbd>CTRL&lt;/kbd>+&lt;kbd>ALT&lt;/kbd>+&lt;kbd>Delete&lt;/kbd>&lt;/kbd> to end the session.&lt;/p>
+&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
+&lt;h3 id="links">Links&lt;/h3>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://www.example.com"
+>title&lt;/a>&lt;/p>
+&lt;h3 id="formats">Formats&lt;/h3>
+&lt;h4 id="italic">Italic&lt;/h4>
+&lt;p>aaa &lt;em>italicized text&lt;/em>&lt;/p>
+&lt;h4 id="bold">Bold&lt;/h4>
+&lt;p>aaa &lt;strong>bold text&lt;/strong>&lt;/p>
+&lt;h4 id="strikethrough">Strikethrough&lt;/h4>
+&lt;p>&lt;del>The world is flat.&lt;/del>&lt;/p>
+&lt;h3 id="code">Code&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-Plain" data-lang="Plain">some code
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="p">{&lt;/span>
+&lt;span class="nt">&amp;#34;firstName&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;lastName&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;age&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">25&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="code1">Code1&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="kd">var&lt;/span> &lt;span class="nx">s&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;JavaScript syntax highlighting&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="nx">alert&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">s&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="code2">Code2&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="n">s&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;Python syntax highlighting&amp;#34;&lt;/span>
+&lt;span class="k">print&lt;/span> &lt;span class="n">s&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>No language indicated, so no syntax highlighting.
+But let's throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
+&lt;/code>&lt;/pre>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Shell" data-lang="Shell">&lt;span class="c1"># some code&lt;/span>
+&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;Hello World&amp;#34;&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;h4 id="code-block-with-backticks">Code block with backticks&lt;/h4>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/h4>
+&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="definition-list">Definition List&lt;/h3>
+&lt;dl>
+&lt;dt>term&lt;/dt>
+&lt;dd>definition&lt;/dd>
+&lt;/dl>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Write the press release&lt;/li>
+&lt;li>[-] Update the website&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Contact the media&lt;/li>
+&lt;/ul>
+&lt;h2 id="media-links">Media Links&lt;/h2>
+&lt;p>&lt;a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=1M4ADcMn3dA
+" target="_blank">&lt;img src="http://img.youtube.com/vi/1M4ADcMn3dA/0.jpg"
+alt="Rammstein" width="480" height="360" border="10" />&lt;/a>&lt;/p>
+&lt;h2 id="youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/ZJthWmvUzzc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;br>
+&lt;hr>
+&lt;h2 id="twitter-simple-shortcode">Twitter Simple Shortcode&lt;/h2>
+&lt;style type="text/css">
+.twitter-tweet {
+font: 14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+border-left: 4px solid #2b7bb9;
+padding-left: 1.5em;
+color: #555;
+}
+.twitter-tweet a {
+color: #2b7bb9;
+text-decoration: none;
+}
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+text-decoration: underline;
+}
+&lt;/style>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”&lt;br>— Jan Tschichold &lt;a href="https://t.co/gcv7SrhvJb">pic.twitter.com/gcv7SrhvJb&lt;/a>&lt;/p>&amp;mdash; Graphic Design History (@DesignReviewed) &lt;a href="https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw">January 17, 2019&lt;/a>&lt;/blockquote>
+&lt;br>
+&lt;hr>
+&lt;h2 id="vimeo-simple-shortcode">Vimeo Simple Shortcode&lt;/h2>
+&lt;style>
+.__h_video {
+position: relative;
+padding-bottom: 56.23%;
+height: 0;
+overflow: hidden;
+width: 100%;
+background: #000;
+}
+.__h_video img {
+width: 100%;
+height: auto;
+color: #000;
+}
+.__h_video .play {
+height: 72px;
+width: 72px;
+left: 50%;
+top: 50%;
+margin-left: -36px;
+margin-top: -36px;
+position: absolute;
+cursor: pointer;
+}
+&lt;/style>
+&lt;div class="s_video_simple __h_video">
+&lt;a href="https://vimeo.com/4.8912912e&amp;#43;07" rel="noopener" target="_blank">
+&lt;img src="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640" srcset="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 2x" alt="Sing Jan Swing - Kinetic Type">
+&lt;div class="play">&lt;svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61">&lt;circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000">&lt;/circle>&lt;path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff">&lt;/path>&lt;/svg>&lt;/div>&lt;/a>&lt;/div>
+&lt;p>Lorem est tota propiore conpellat pectoribus de pectora summo. &lt;!--more-->Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p>
+&lt;ol>
+&lt;li>Exierant elisi ambit vivere dedere&lt;/li>
+&lt;li>Duce pollice&lt;/li>
+&lt;li>Eris modo&lt;/li>
+&lt;li>Spargitque ferrea quos palude&lt;/li>
+&lt;/ol>
+&lt;p>Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p>
+&lt;ol>
+&lt;li>Comas hunc haec pietate fetum procerum dixit&lt;/li>
+&lt;li>Post torum vates letum Tiresia&lt;/li>
+&lt;li>Flumen querellas&lt;/li>
+&lt;li>Arcanaque montibus omnes&lt;/li>
+&lt;li>Quidem et&lt;/li>
+&lt;/ol>
+&lt;h1 id="vagus-elidunt">Vagus elidunt&lt;/h1>
+&lt;p>&lt;svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496">&lt;g fill="none">&lt;path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515">&lt;/path>&lt;path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z">&lt;/path>&lt;path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372">&lt;/path>&lt;ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25">&lt;/ellipse>&lt;ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25">&lt;/ellipse>&lt;/g>&lt;/svg>&lt;/p>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon"
+>The Van de Graaf Canon&lt;/a>&lt;/p>
+&lt;h2 id="mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat&lt;/h2>
+&lt;p>Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong>Faces illo pepulere&lt;/strong> tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p>
+&lt;p>Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.&lt;/p>
+&lt;p>Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong>mitis temploque&lt;/strong> vocatus, inque alis, &lt;em>oculos nomen&lt;/em> non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong>parte&lt;/strong>.&lt;/p>
+&lt;p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p>
+&lt;!--more-->
+&lt;p>In this example we will be using &lt;a
+class="gblog-markdown__link"
+href="https://katex.org/"
+>KaTeX&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Create a partial under &lt;code>/layouts/partials/math.html&lt;/code>&lt;/li>
+&lt;li>Within this partial reference the &lt;a
+class="gblog-markdown__link"
+href="https://katex.org/docs/autorender.html"
+>Auto-render Extension&lt;/a> or host these scripts locally.&lt;/li>
+&lt;li>Include the partial in your templates like so:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="o">{{&lt;/span> &lt;span class="k">if&lt;/span> or .Params.math .Site.Params.math &lt;span class="o">}}&lt;/span>
+&lt;span class="o">{{&lt;/span> partial &lt;span class="s2">&amp;#34;math.html&amp;#34;&lt;/span> . &lt;span class="o">}}&lt;/span>
+&lt;span class="o">{{&lt;/span> end &lt;span class="o">}}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>To enable KaTex globally set the parameter &lt;code>math&lt;/code> to &lt;code>true&lt;/code> in a project&amp;rsquo;s configuration&lt;/li>
+&lt;li>To enable KaTex on a per page basis include the parameter &lt;code>math: true&lt;/code> in content files&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Note:&lt;/strong> Use the online reference of &lt;a
+class="gblog-markdown__link"
+href="https://katex.org/docs/supported.html"
+>Supported TeX Functions&lt;/a>&lt;/p>
+&lt;h3 id="examples">Examples&lt;/h3>
+&lt;p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$&lt;/p>
+&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p>
+&lt;!--more-->
+&lt;p>The &lt;a
+class="gblog-markdown__link--code"
+href="https://gohugo.io/functions/emojify/"
+>&lt;code>emojify&lt;/code>&lt;/a> function can be called directly in templates or &lt;a
+class="gblog-markdown__link"
+href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes"
+>Inline Shortcodes&lt;/a>.&lt;/p>
+&lt;p>To enable emoji globally, set &lt;code>enableEmoji&lt;/code> to &lt;code>true&lt;/code> in your site&amp;rsquo;s &lt;a
+class="gblog-markdown__link"
+href="https://gohugo.io/getting-started/configuration/"
+>configuration&lt;/a> and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p>
+&lt;p>&lt;span class="nowrap">&lt;span class="emojify">🙈&lt;/span> &lt;code>:see_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙉&lt;/span> &lt;code>:hear_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙊&lt;/span> &lt;code>:speak_no_evil:&lt;/code>&lt;/span>&lt;/p>
+&lt;br>
+&lt;p>The &lt;a
+class="gblog-markdown__link"
+href="http://www.emoji-cheat-sheet.com/"
+>Emoji cheat sheet&lt;/a> is a useful reference for emoji shorthand codes.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>N.B.&lt;/strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">.emoji {
+font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}&lt;/code>&lt;/pre>&lt;/div>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a
+class="gblog-markdown__link"
+href="https://www.youtube.com/watch?v=PAAkCSZUG1c"
+>talk&lt;/a> during Gopherfest, November 18, 2015. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></content><category scheme="https://davidrd-es.github.io/tags/Open-Source" term="Open-Source" label="Open Source"/></entry><entry><title>Template Post2</title><link href="https://davidrd-es.github.io/0/22020227-post/page/" rel="alternate" type="text/html" hreflang="en"/><id>https://davidrd-es.github.io/0/22020227-post/page/</id><published>2021-10-22T17:17:09+02:00</published><updated>2021-10-22T17:17:09+02:00</updated><content type="html">
+&lt;p>ENGLISH&lt;/p>
+&lt;p>This sets the summary2.&lt;/p>
+&lt;p>Esto es un demo 11111111111111&lt;/p>
+&lt;p>This is an update from surface&lt;/p>
+&lt;div class="gblog-toc gblog-toc__level--1">
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#headings">Headings&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#h1">H1&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h2">H2&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h3">H3&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h4">H4&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h5">H5&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#h6">H6&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#blockquotes">Blockquotes&lt;/a>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#blockquote-without-attribution">Blockquote without attribution&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#blockquote-with-attribution">Blockquote with attribution&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#footnotes">Footnotes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#images">Images&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#picture">Picture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#gif">Gif&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#gif2">Gif2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#buttons">Buttons&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#diagram">Diagram&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#sequence">Sequence&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#gant">Gant&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#flowchart">Flowchart&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#flowchart-2">Flowchart 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#flowchart-3">Flowchart 3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#hints">Hints&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#icons">Icons&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tabs">Tabs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#expands">Expands&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#columns">Columns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#markdown">Markdown&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tables">Tables&lt;/a>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;a href="#inline-markdown-within-tables">Inline Markdown within tables&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ordered-list">Ordered List&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#unordered-list">Unordered List&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#nested-list">Nested list&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#links">Links&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#formats">Formats&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#italic">Italic&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#bold">Bold&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#strikethrough">Strikethrough&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#code">Code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code1">Code1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code2">Code2&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#code-block-with-backticks">Code block with backticks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#definition-list">Definition List&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#media-links">Media Links&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#twitter-simple-shortcode">Twitter Simple Shortcode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#vimeo-simple-shortcode">Vimeo Simple Shortcode&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#vagus-elidunt">Vagus elidunt&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#examples">Examples&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;hr />
+&lt;/div>
+&lt;h2 id="headings">Headings&lt;/h2>
+&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2">H2&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;h5 id="h5">H5&lt;/h5>
+&lt;h6 id="h6">H6&lt;/h6>
+&lt;h2 id="blockquotes">Blockquotes&lt;/h2>
+&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
+&lt;h4 id="blockquote-without-attribution">Blockquote without attribution&lt;/h4>
+&lt;blockquote>
+&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="blockquote-with-attribution">Blockquote with attribution&lt;/h4>
+&lt;blockquote>
+&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
+— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="footnotes">Footnotes&lt;/h2>
+&lt;p>Here&amp;rsquo;s a sentence with a footnote. &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="images">Images&lt;/h2>
+&lt;p>aaaaaaaaa&lt;/p>
+&lt;h3 id="picture">Picture&lt;/h3>
+&lt;h3 id="gif">Gif&lt;/h3>
+&lt;h3 id="gif2">Gif2&lt;/h3>
+&lt;p>&lt;img
+src="../img/test2.gif"
+alt="Alt text for my gif"
+/>&lt;/p>
+&lt;h2 id="buttons">Buttons&lt;/h2>
+&lt;p>
+&lt;span
+class="gblog-button gblog-button--regular
+...
+"
+>
+&lt;a href="/" class="gblog-button__link">
+Get Home
+&lt;/a>
+&lt;/span>
+&lt;span
+class="gblog-button gblog-button--large
+...
+"
+>
+&lt;a href="/" class="gblog-button__link">
+Get Home
+&lt;/a>
+&lt;/span>
+&lt;span
+class="gblog-button gblog-button--regular"
+>
+&lt;a href="https://github.com/thegeeklab/hugo-geekblog" class="gblog-button__link">
+Contribute
+&lt;/a>
+&lt;/span>
+&lt;/p>
+&lt;h2 id="diagram">Diagram&lt;/h2>
+&lt;h3 id="sequence">Sequence&lt;/h3>
+&lt;script defer src="/js/mermaid-38e1f899.bundle.min.js">&lt;/script>
+&lt;pre class="gblog-mermaid mermaid text-center">
+sequenceDiagram
+Alice->>Bob: Hello Bob, how are you?
+alt is sick
+Bob->>Alice: Not so good :(
+Bob->>Alice: Not so good :(
+Bob->>Alice: Not so good :(
+Bob->>Alice: Not so good :(
+else is well
+Bob->>Alice: Feeling fresh like a daisy
+end
+opt Extra response
+Bob->>Alice: Thanks for asking
+end
+&lt;/pre>
+&lt;pre class="gblog-mermaid mermaid text-center">
+journey
+title My working day
+section Go to work
+Make tea: 5: Me
+Go upstairs: 3: Me
+Do work: 1: Me, Cat
+section Go home
+Go downstairs: 5: Me
+Sit down: 5: Me
+&lt;/pre>
+&lt;h3 id="gant">Gant&lt;/h3>
+&lt;pre class="gblog-mermaid mermaid text-center">
+gantt
+dateFormat YYYY-MM-DD
+title Adding GANTT diagram functionality to mermaid
+excludes :excludes the named dates/days from being included in a charted task..
+section A section
+Completed task :done, des1, 2014-01-06,2014-01-08
+Active task :active, des2, 2014-01-09, 3d
+Future task : des3, after des2, 5d
+Future task2 : des4, after des3, 5d
+section Critical tasks
+Completed task in the critical line :crit, done, 2014-01-06,24h
+Implement parser and jison :crit, done, after des1, 2d
+Create tests for parser :crit, active, 3d
+Future task in critical line :crit, 5d
+Create tests for renderer :2d
+Add to mermaid :1d
+section Documentation
+Describe gantt syntax :active, a1, after des1, 3d
+Add gantt diagram to demo page :after a1 , 20h
+Add another diagram to demo page :doc1, after a1 , 48h
+section Last section
+Describe gantt syntax :after doc1, 3d
+Add gantt diagram to demo page :20h
+Add another diagram to demo page :48h
+&lt;/pre>
+&lt;h3 id="flowchart">Flowchart&lt;/h3>
+&lt;pre class="gblog-mermaid mermaid text-center">
+graph TD;
+A-->B;
+B-->D;
+C-->D;
+&lt;/pre>
+&lt;h3 id="flowchart-2">Flowchart 2&lt;/h3>
+&lt;pre class="gblog-mermaid mermaid text-center">
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+&lt;/pre>
+&lt;h3 id="flowchart-3">Flowchart 3&lt;/h3>
+&lt;pre class="gblog-mermaid mermaid text-center">
+graph TB
+sq[Square shape] --> ci((Circle shape))
+subgraph A
+od>Odd shape]-- Two line&lt;br/>edge comment --> ro
+di{Diamond with &lt;br/> line break} -.-> ro(Rounded&lt;br>square&lt;br>shape)
+di==>ro2(Rounded square shape)
+end
+%% Notice that no text in shape are added here instead that is appended further down
+e --> od3>Really long text with linebreak&lt;br>in an Odd shape]
+%% Comments after double percent signs
+e((Inner / circle&lt;br>and some odd &lt;br>special characters)) --> f(,.?!+-*ز)
+cyr[Cyrillic]-->cyr2((Circle shape Начало));
+classDef green fill:#9f6,stroke:#333,stroke-width:2px;
+classDef orange fill:#f96,stroke:#333,stroke-width:4px;
+class sq,e green
+class di orange
+&lt;/pre>
+&lt;h2 id="hints">Hints&lt;/h2>
+&lt;blockquote class="gblog-hint info">
+&lt;strong>Markdown content&lt;/strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+&lt;/blockquote>
+&lt;blockquote class="gblog-hint ok">
+&lt;strong>Markdown content&lt;/strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+&lt;/blockquote>
+&lt;blockquote class="gblog-hint warning">
+&lt;strong>Markdown content&lt;/strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+&lt;/blockquote>
+&lt;blockquote class="gblog-hint danger">
+&lt;strong>Markdown content&lt;/strong>
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.
+Ornateness bland it ex enc, est yeti am bongo detract re.
+&lt;/blockquote>
+&lt;h2 id="icons">Icons&lt;/h2>
+&lt;p>&lt;span class="emoji">🙈&lt;/span>
+&lt;svg class="icon thumbs-up">&lt;use xlink:href="#thumbs-up">&lt;/use>&lt;/svg>
+&lt;svg class="icon thumbs-up">&lt;use xlink:href="#thumbs-up">&lt;/use>&lt;/svg>
+&lt;svg class="icon pngconverted">&lt;use xlink:href="#pngconverted">&lt;/use>&lt;/svg>&lt;/p>
+&lt;h2 id="tabs">Tabs&lt;/h2>
+&lt;div class="gblog-tabs">
+&lt;input
+type="radio"
+class="gblog-tabs__control hidden"
+name="tabs-uniqueid"
+id="tabs-uniqueid-0"
+checked="checked"
+/>
+&lt;label for="tabs-uniqueid-0" class="gblog-tabs__label">
+macOS
+&lt;/label>
+&lt;div class="gblog-markdown--nested gblog-tabs__content">
+&lt;h1 id="macos-content">macOS Content&lt;/h1>
+&lt;/div>
+&lt;input
+type="radio"
+class="gblog-tabs__control hidden"
+name="tabs-uniqueid"
+id="tabs-uniqueid-1"
+/>
+&lt;label for="tabs-uniqueid-1" class="gblog-tabs__label">
+Linux
+&lt;/label>
+&lt;div class="gblog-markdown--nested gblog-tabs__content">
+&lt;h1 id="linux-content">Linux Content&lt;/h1>
+&lt;/div>
+&lt;input
+type="radio"
+class="gblog-tabs__control hidden"
+name="tabs-uniqueid"
+id="tabs-uniqueid-2"
+/>
+&lt;label for="tabs-uniqueid-2" class="gblog-tabs__label">
+Windows
+&lt;/label>
+&lt;div class="gblog-markdown--nested gblog-tabs__content">
+&lt;h1 id="windows-content">Windows Content&lt;/h1>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="expands">Expands&lt;/h2>
+&lt;div class="gblog-expand">
+&lt;label class="gblog-expand__head flex justify-between" for="b082e31c-21">
+&lt;span>Custom Label&lt;/span>
+&lt;span>...&lt;/span>
+&lt;/label>
+&lt;input id="b082e31c-21" type="checkbox" class="gblog-expand__control hidden" />
+&lt;div class="gblog-markdown--nested gblog-expand__content">
+&lt;h2 id="markdown-content">Markdown content&lt;/h2>
+&lt;p>Dolor sit, sumo unique &amp;hellip;
+&lt;/div>
+&lt;/div>
+&lt;h2 id="columns">Columns&lt;/h2>
+&lt;div class="gblog-columns flex flex-wrap flex-mobile-column">
+&lt;div class="gblog-columns__content gblog-markdown--nested flex-even">
+&lt;!-- begin columns block -->
+&lt;h2 id="left-content">Left Content&lt;/h2>
+&lt;p>Dolor sit, sumo unique argument um no &amp;hellip;
+&lt;/div>
+&lt;div class="gblog-columns__content gblog-markdown--nested flex-even">
+&lt;!-- magic sparator, between columns -->
+&lt;h2 id="mid-content">Mid Content&lt;/h2>
+&lt;p>Dolor sit, sumo unique argument um no &amp;hellip;
+&lt;/div>
+&lt;div class="gblog-columns__content gblog-markdown--nested flex-even">
+&lt;!-- magic sparator, between columns -->
+&lt;h2 id="right-content">Right Content&lt;/h2>
+&lt;p>Dolor sit, sumo unique argument um no &amp;hellip;
+&lt;/div>
+&lt;/div>
+&lt;ul>
+&lt;li>Test 1
+&lt;ul>
+&lt;li>test 1.2&lt;/li>
+&lt;li>test 2.2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Test 2
+&lt;ul>
+&lt;li>Test 2.1&lt;/li>
+&lt;li>Test 2.2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="markdown">Markdown&lt;/h2>
+&lt;h2 id="tables">Tables&lt;/h2>
+&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Age&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bob&lt;/td>
+&lt;td>27&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alice&lt;/td>
+&lt;td>23&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="inline-markdown-within-tables">Inline Markdown within tables&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Italics&lt;/th>
+&lt;th>Bold&lt;/th>
+&lt;th>Code&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>italics&lt;/em>&lt;/td>
+&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
+&lt;td>&lt;code>code&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="ordered-list">Ordered List&lt;/h4>
+&lt;ol>
+&lt;li>First item&lt;/li>
+&lt;li>Second item&lt;/li>
+&lt;li>Third item&lt;/li>
+&lt;/ol>
+&lt;h4 id="unordered-list">Unordered List&lt;/h4>
+&lt;ul>
+&lt;li>List item&lt;/li>
+&lt;li>Another item&lt;/li>
+&lt;li>And another item&lt;/li>
+&lt;/ul>
+&lt;h4 id="nested-list">Nested list&lt;/h4>
+&lt;ul>
+&lt;li>Fruit
+&lt;ul>
+&lt;li>Apple&lt;/li>
+&lt;li>Orange&lt;/li>
+&lt;li>Banana&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Dairy
+&lt;ul>
+&lt;li>Milk&lt;/li>
+&lt;li>Cheese&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark&lt;/h2>
+&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
+&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
+&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
+&lt;p>Press &lt;kbd>&lt;kbd>CTRL&lt;/kbd>+&lt;kbd>ALT&lt;/kbd>+&lt;kbd>Delete&lt;/kbd>&lt;/kbd> to end the session.&lt;/p>
+&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
+&lt;h3 id="links">Links&lt;/h3>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://www.example.com"
+>title&lt;/a>&lt;/p>
+&lt;h3 id="formats">Formats&lt;/h3>
+&lt;h4 id="italic">Italic&lt;/h4>
+&lt;p>aaa &lt;em>italicized text&lt;/em>&lt;/p>
+&lt;h4 id="bold">Bold&lt;/h4>
+&lt;p>aaa &lt;strong>bold text&lt;/strong>&lt;/p>
+&lt;h4 id="strikethrough">Strikethrough&lt;/h4>
+&lt;p>&lt;del>The world is flat.&lt;/del>&lt;/p>
+&lt;h3 id="code">Code&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-Plain" data-lang="Plain">some code
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="p">{&lt;/span>
+&lt;span class="nt">&amp;#34;firstName&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;lastName&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;age&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">25&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="code1">Code1&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="kd">var&lt;/span> &lt;span class="nx">s&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;JavaScript syntax highlighting&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="nx">alert&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">s&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="code2">Code2&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="n">s&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;Python syntax highlighting&amp;#34;&lt;/span>
+&lt;span class="k">print&lt;/span> &lt;span class="n">s&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>No language indicated, so no syntax highlighting.
+But let's throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;.
+&lt;/code>&lt;/pre>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-Shell" data-lang="Shell">&lt;span class="c1"># some code&lt;/span>
+&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;Hello World&amp;#34;&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;h4 id="code-block-with-backticks">Code block with backticks&lt;/h4>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/h4>
+&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="definition-list">Definition List&lt;/h3>
+&lt;dl>
+&lt;dt>term&lt;/dt>
+&lt;dd>definition&lt;/dd>
+&lt;/dl>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Write the press release&lt;/li>
+&lt;li>[-] Update the website&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Contact the media&lt;/li>
+&lt;/ul>
+&lt;h2 id="media-links">Media Links&lt;/h2>
+&lt;p>&lt;a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=1M4ADcMn3dA
+" target="_blank">&lt;img src="http://img.youtube.com/vi/1M4ADcMn3dA/0.jpg"
+alt="Rammstein" width="480" height="360" border="10" />&lt;/a>&lt;/p>
+&lt;h2 id="youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/ZJthWmvUzzc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;br>
+&lt;hr>
+&lt;h2 id="twitter-simple-shortcode">Twitter Simple Shortcode&lt;/h2>
+&lt;style type="text/css">
+.twitter-tweet {
+font: 14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+border-left: 4px solid #2b7bb9;
+padding-left: 1.5em;
+color: #555;
+}
+.twitter-tweet a {
+color: #2b7bb9;
+text-decoration: none;
+}
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+text-decoration: underline;
+}
+&lt;/style>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”&lt;br>— Jan Tschichold &lt;a href="https://t.co/gcv7SrhvJb">pic.twitter.com/gcv7SrhvJb&lt;/a>&lt;/p>&amp;mdash; Graphic Design History (@DesignReviewed) &lt;a href="https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw">January 17, 2019&lt;/a>&lt;/blockquote>
+&lt;br>
+&lt;hr>
+&lt;h2 id="vimeo-simple-shortcode">Vimeo Simple Shortcode&lt;/h2>
+&lt;style>
+.__h_video {
+position: relative;
+padding-bottom: 56.23%;
+height: 0;
+overflow: hidden;
+width: 100%;
+background: #000;
+}
+.__h_video img {
+width: 100%;
+height: auto;
+color: #000;
+}
+.__h_video .play {
+height: 72px;
+width: 72px;
+left: 50%;
+top: 50%;
+margin-left: -36px;
+margin-top: -36px;
+position: absolute;
+cursor: pointer;
+}
+&lt;/style>
+&lt;div class="s_video_simple __h_video">
+&lt;a href="https://vimeo.com/4.8912912e&amp;#43;07" rel="noopener" target="_blank">
+&lt;img src="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640" srcset="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 2x" alt="Sing Jan Swing - Kinetic Type">
+&lt;div class="play">&lt;svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61">&lt;circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000">&lt;/circle>&lt;path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff">&lt;/path>&lt;/svg>&lt;/div>&lt;/a>&lt;/div>
+&lt;p>Lorem est tota propiore conpellat pectoribus de pectora summo. &lt;!--more-->Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p>
+&lt;ol>
+&lt;li>Exierant elisi ambit vivere dedere&lt;/li>
+&lt;li>Duce pollice&lt;/li>
+&lt;li>Eris modo&lt;/li>
+&lt;li>Spargitque ferrea quos palude&lt;/li>
+&lt;/ol>
+&lt;p>Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p>
+&lt;ol>
+&lt;li>Comas hunc haec pietate fetum procerum dixit&lt;/li>
+&lt;li>Post torum vates letum Tiresia&lt;/li>
+&lt;li>Flumen querellas&lt;/li>
+&lt;li>Arcanaque montibus omnes&lt;/li>
+&lt;li>Quidem et&lt;/li>
+&lt;/ol>
+&lt;h1 id="vagus-elidunt">Vagus elidunt&lt;/h1>
+&lt;p>&lt;svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496">&lt;g fill="none">&lt;path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515">&lt;/path>&lt;path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z">&lt;/path>&lt;path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372">&lt;/path>&lt;ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25">&lt;/ellipse>&lt;ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25">&lt;/ellipse>&lt;/g>&lt;/svg>&lt;/p>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon"
+>The Van de Graaf Canon&lt;/a>&lt;/p>
+&lt;h2 id="mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat&lt;/h2>
+&lt;p>Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. &lt;strong>Faces illo pepulere&lt;/strong> tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.&lt;/p>
+&lt;p>Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.&lt;/p>
+&lt;p>Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel &lt;strong>mitis temploque&lt;/strong> vocatus, inque alis, &lt;em>oculos nomen&lt;/em> non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong>parte&lt;/strong>.&lt;/p>
+&lt;p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p>
+&lt;!--more-->
+&lt;p>In this example we will be using &lt;a
+class="gblog-markdown__link"
+href="https://katex.org/"
+>KaTeX&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Create a partial under &lt;code>/layouts/partials/math.html&lt;/code>&lt;/li>
+&lt;li>Within this partial reference the &lt;a
+class="gblog-markdown__link"
+href="https://katex.org/docs/autorender.html"
+>Auto-render Extension&lt;/a> or host these scripts locally.&lt;/li>
+&lt;li>Include the partial in your templates like so:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="o">{{&lt;/span> &lt;span class="k">if&lt;/span> or .Params.math .Site.Params.math &lt;span class="o">}}&lt;/span>
+&lt;span class="o">{{&lt;/span> partial &lt;span class="s2">&amp;#34;math.html&amp;#34;&lt;/span> . &lt;span class="o">}}&lt;/span>
+&lt;span class="o">{{&lt;/span> end &lt;span class="o">}}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>To enable KaTex globally set the parameter &lt;code>math&lt;/code> to &lt;code>true&lt;/code> in a project&amp;rsquo;s configuration&lt;/li>
+&lt;li>To enable KaTex on a per page basis include the parameter &lt;code>math: true&lt;/code> in content files&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Note:&lt;/strong> Use the online reference of &lt;a
+class="gblog-markdown__link"
+href="https://katex.org/docs/supported.html"
+>Supported TeX Functions&lt;/a>&lt;/p>
+&lt;h3 id="examples">Examples&lt;/h3>
+&lt;p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$&lt;/p>
+&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p>
+&lt;!--more-->
+&lt;p>The &lt;a
+class="gblog-markdown__link--code"
+href="https://gohugo.io/functions/emojify/"
+>&lt;code>emojify&lt;/code>&lt;/a> function can be called directly in templates or &lt;a
+class="gblog-markdown__link"
+href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes"
+>Inline Shortcodes&lt;/a>.&lt;/p>
+&lt;p>To enable emoji globally, set &lt;code>enableEmoji&lt;/code> to &lt;code>true&lt;/code> in your site&amp;rsquo;s &lt;a
+class="gblog-markdown__link"
+href="https://gohugo.io/getting-started/configuration/"
+>configuration&lt;/a> and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p>
+&lt;p>&lt;span class="nowrap">&lt;span class="emojify">🙈&lt;/span> &lt;code>:see_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙉&lt;/span> &lt;code>:hear_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙊&lt;/span> &lt;code>:speak_no_evil:&lt;/code>&lt;/span>&lt;/p>
+&lt;br>
+&lt;p>The &lt;a
+class="gblog-markdown__link"
+href="http://www.emoji-cheat-sheet.com/"
+>Emoji cheat sheet&lt;/a> is a useful reference for emoji shorthand codes.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>N.B.&lt;/strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">.emoji {
+font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+}&lt;/code>&lt;/pre>&lt;/div>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a
+class="gblog-markdown__link"
+href="https://www.youtube.com/watch?v=PAAkCSZUG1c"
+>talk&lt;/a> during Gopherfest, November 18, 2015. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></content><category scheme="https://davidrd-es.github.io/tags/Open-Source" term="Open-Source" label="Open Source"/></entry></feed>

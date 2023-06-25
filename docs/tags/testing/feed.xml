@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <generator uri="https://gohugo.io/" version="0.111.2">Hugo</generator>
-    <title>Pepo The IT Dog</title>
-            <link href="https://blog.pepotheitdog.com/" rel="alternate" type="text/html" title="HTML" />
-            <link href="https://blog.pepotheitdog.com/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+    <title>Testing on Pepo The IT Dog</title>
+            <link href="https://blog.pepotheitdog.com/tags/testing/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://blog.pepotheitdog.com/tags/testing/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
     <updated>2023-06-25T00:08:45+00:00</updated>
-    <id>https://blog.pepotheitdog.com/</id>
+    <id>https://blog.pepotheitdog.com/tags/testing/</id>
         <entry>
             <title>Template Post</title>
             <link href="https://blog.pepotheitdog.com/0post/20190101-template/page/" rel="alternate" type="text/html"  hreflang="en" />

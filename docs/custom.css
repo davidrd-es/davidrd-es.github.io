@@ -1,0 +1,183 @@
+/* Global customization */
+
+.gblog-header{
+	font-family:Cyberpunks,sans-serif;  
+}
+
+.gblog-brand__img{
+	margin-right:1rem;
+	width:100px;
+	height:100px
+}
+
+.gblog-brand__title{
+  font-size: xxx-large;
+}
+
+@font-face{
+	font-family:"Cyberpunks";
+	src:url(fonts/Cyberpunks-Italic.woff) format("woff");
+	font-weight:700;
+	font-style:italic;
+	font-display:swap
+}
+
+/*
+.gblog-footer__link{
+	color: #5caf0f;
+}
+
+.gblog-footer__link:hover{
+	background-color: #5caf0f;
+	color: #ffffff
+}
+*/
+:root {
+  --code-max-height: 60rem;
+}
+
+/* Light mode theming */
+:root,
+:root[color-theme="light"] {
+  --header-background: #5caf0f;
+  --header-font-color: #ffffff;
+
+  --body-background: #ffffff;
+  --body-font-color: #151516;
+
+  --mark-color: #376909;
+
+  --button-background: #5caf0f;
+  --button-border-color: #5caf0f;
+
+  --link-color: #5caf0f;
+  --link-color-visited: #376909;
+
+  --code-background: #f8f5f5; /* code background */
+  --code-accent-color: #e3e7eb; /* Borde de codigo*/
+  --code-accent-color-lite: #f3eff0; /* In dicador de linea*/
+  --code-font-color: #5f5f5f; /*color codigo en si */
+
+  --code-copy-background: #151516;
+  --code-copy-font-color: #6b7784;
+  --code-copy-border-color: #6b7784;
+  --code-copy-success-color: #37905c;
+
+  --accent-color-dark: #868e96;
+  --accent-color: #e9ecef;
+  --accent-color-lite: #f8f9fa;
+
+  --control-icons: #5caf0f; /* icono que sale al lado de los links */
+
+  --link-color-footer: #5caf0f;
+  --footer-link-color: #5caf0f;
+
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --header-background: #5caf0f;
+    --header-font-color: #ffffff;
+
+    --body-background: #ffffff;
+    --body-font-color: #151516;
+
+    --mark-color: #376909;
+
+    --button-background: #5caf0f;
+    --button-border-color: #5caf0f;
+
+    --link-color: #5caf0f;
+    --link-color-visited: #376909;
+
+    --code-background: #f8f5f5; /* code background */
+    --code-accent-color: #e3e7eb; /* Borde de codigo*/
+    --code-accent-color-lite: #f3eff0; /* In dicador de linea*/
+    --code-font-color: #5f5f5f; /*color codigo en si */
+
+    --code-copy-background: #151516;
+    --code-copy-font-color: #6b7784;
+    --code-copy-border-color: #6b7784;
+    --code-copy-success-color: #37905c;
+
+    --accent-color-dark: #868e96;
+    --accent-color: #e9ecef;
+    --accent-color-lite: #f8f9fa;
+
+    --control-icons: #5caf0f;
+
+    --link-color-footer: #5caf0f;
+    --footer-link-color: #5caf0f;
+  }
+}
+
+/* Dark mode theming */
+:root[color-theme="dark"] {
+  --header-background: #376909;
+  --header-font-color: #ffffff;
+
+  --body-background: #151516;
+  --body-font-color: #ced3d8;
+
+  --mark-color: #5caf0f;
+
+  --button-background: #5caf0f;
+  --button-border-color: #5caf0f;
+
+  --link-color: #5caf0f;
+  --link-color-visited: #376909;
+
+  --code-background: #2f353a;
+  --code-accent-color: #262b2f;
+  --code-accent-color-lite: #2b3035;
+  --code-font-color: #b9b9b9;
+
+  --code-copy-background: #151516;
+  --code-copy-font-color: #6b7784;
+  --code-copy-border-color: #6b7784;
+  --code-copy-success-color: #37905c;
+
+  --accent-color-dark: #222629;
+  --accent-color: #2b3035;
+  --accent-color-lite: #2f353a;
+
+  --control-icons: #5caf0f;
+
+  --link-color-footer: #5caf0f;
+  --footer-link-color: #5caf0f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --header-background: #376909;
+    --header-font-color: #ffffff;
+
+    --body-background: #151516;
+    --body-font-color: #ced3d8;
+
+    --mark-color: #5caf0f;
+
+    --button-background: #5caf0f;
+    --button-border-color: #5caf0f;
+
+    --link-color: #5caf0f;
+    --link-color-visited: #376909;
+
+    --code-background: #2f353a;
+    --code-accent-color: #262b2f;
+    --code-accent-color-lite: #2b3035;
+    --code-font-color: #b9b9b9;
+
+    --code-copy-background: #151516;
+    --code-copy-font-color: #6b7784;
+    --code-copy-border-color: #6b7784;
+    --code-copy-success-color: #37905c;
+
+    --accent-color-dark: #222629;
+    --accent-color: #2b3035;
+    --accent-color-lite: #2f353a;
+
+    --control-icons: #5caf0f;
+
+    --link-color-footer: #5caf0f;
+    --footer-link-color: #5caf0f;
+  }
+}

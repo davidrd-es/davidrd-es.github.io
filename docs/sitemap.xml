@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.pepotheitdog.com/0post/20230630-homelab/page/</loc>
-    <lastmod>2023-06-29T17:17:09+02:00</lastmod>
+    <loc>https://blog.pepotheitdog.com/</loc>
+    <lastmod>2023-06-30T17:17:09+02:00</lastmod>
   </url>
   <url>
-    <loc>https://blog.pepotheitdog.com/</loc>
+    <loc>https://blog.pepotheitdog.com/0post/20230630-test/page/</loc>
+    <lastmod>2023-06-30T17:17:09+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.pepotheitdog.com/0post/20230630-homelab/page/</loc>
     <lastmod>2023-06-29T17:17:09+02:00</lastmod>
   </url>
   <url>
@@ -14,5 +18,8 @@
   </url>
   <url>
     <loc>https://blog.pepotheitdog.com/archive/page/</loc>
+  </url>
+  <url>
+    <loc>https://blog.pepotheitdog.com/lp/page/</loc>
   </url>
 </urlset>

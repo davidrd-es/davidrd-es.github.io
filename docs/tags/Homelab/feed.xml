@@ -4,14 +4,14 @@
     <title>Homelab on Pepo The IT Dog</title>
             <link href="https://blog.pepotheitdog.com/tags/Homelab/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://blog.pepotheitdog.com/tags/Homelab/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
-    <updated>2023-07-03T03:39:49+00:00</updated>
+    <updated>2023-07-03T17:14:41+00:00</updated>
     <id>https://blog.pepotheitdog.com/tags/Homelab/</id>
         <entry>
             <title>Homelab playground</title>
             <link href="https://blog.pepotheitdog.com/0post/20230630-homelab/page/" rel="alternate" type="text/html"  hreflang="en" />
             <id>https://blog.pepotheitdog.com/0post/20230630-homelab/page/</id>
-            <published>2023-06-29T17:17:09+02:00</published>
-            <updated>2023-06-29T17:17:09+02:00</updated>
+            <published>2023-06-30T17:17:09+02:00</published>
+            <updated>2023-06-30T17:17:09+02:00</updated>
             <content type="html">
                 &lt;p&gt;Long ago, when I wanted to enhance my Virtualization and Automation skills, I explored various options to acquire them beyond my daily work. Product documentation, trainings, and blogs were all helpful for taking initial steps. However, as I delved deeper into numerous subjects, I realized the need to personally test and retain my tests in an isolated environment. By this, I made the decision to purchase my first hardware to set up a homelab&lt;/p&gt;
   &lt;div class=&#34;gblog-toc gblog-toc__level--2&#34;&gt;
@@ -79,10 +79,9 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;PATATATATATATATAT
-TATATATATTA
-ATATATATATATTAT
-ATATATATATATAT&lt;/p&gt;
+&lt;img src=&#34;/0post/20230630-homelab/_assets/media/hp_z640_1.jpg&#34; alt=&#34;HP Z640&#34; width=50%; height=auto; /&gt;
+&lt;img src=&#34;/0post/20230630-homelab/_assets/media/syn_ds415_1.jpg&#34; alt=&#34;Synology DS415+&#34; width=50%; height=auto; /&gt;
+&lt;hr&gt;
             </content>   
                                 <category scheme="https://blog.pepotheitdog.com/tags/Homelab" term="Homelab" label="Homelab" />
         </entry>
